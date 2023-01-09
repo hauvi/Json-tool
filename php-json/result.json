@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Hardik Savani",
+        "email": "hardik@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Jaydeep Pathar",
+        "email": "jaydeep@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Vivek Pathar",
+        "email": "vivek@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "Mehul Bagda",
+        "email": "mehul@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Nikhil Thummer",
+        "email": "nikhil@gmail.com"
+    }
+]

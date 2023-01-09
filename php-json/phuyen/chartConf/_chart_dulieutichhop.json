@@ -1,0 +1,39 @@
+{
+  "tichhop_radar_lua": {
+    "iURL4Chart": "https://agrigis.girs.vn/api/get_all_data_fdate/",
+    "serverside": true,
+    "DimGroupList": {
+      "chart1": {
+        "nameChart": "Tổng số liệu theo địa phương",
+        "group4Map": true,
+        "group4MapCodeColor": "YlGn",
+        "group4MapField4Color": "tenhc",
+        "chartType": "Row",
+        "keyDim": "tenxa",
+        "typeMap": "Sum",
+        "keyMap": "sum",
+        "filter": []
+      },
+      
+      "chart2": {
+        "nameChart": "Tổng số liệu theo thời gian",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Sum",
+        "keyMap": "sum",
+        "filter": []
+      },
+
+      "chart3": {
+        "nameChart": "Diện tích theo loại",
+        "chartType": "Bar",
+        "keyDim": "rice_age",
+        "typeMap": "Sum",
+        "keyMap": "sum",
+        "filter": []
+      }
+    }
+  }
+
+
+}

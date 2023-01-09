@@ -1,0 +1,709 @@
+{
+  "trongtrot_diemmohinh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot.vw_diemmohinh_trongtrot/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "maso": "Mã số",
+      "tenmohinh": "Tên điểm mô hình",
+      "diadiemthuchien": "Địa điểm thực hiện",
+      "tennongdan": "Tên nông dân thực hiện",
+      "sodienthoai": "Số điện thoại",
+      "dientichthuchien": "Diện tích thực hiện (ha)",
+      "noidungthuchien": "Nội dung thực hiện",
+      "thoigianthuchien": "Thời gian thực hiện",
+      "nangsuat": "Năng suất (tấn/ha)",
+      "giaban": "Giá bán (đồng/kg)",
+      "chiphi": "Chi phí (đồng/kg)",
+      "loinhuan": "Lợi nhuận (đồng/kg)",
+      "donvidautu": "Đơn vị đầu tư mô hình",
+      "lienketbaotieu": "Liên kết bao tiêu",
+      "chungnhan": "Chứng nhận",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã"
+    }
+  },
+  "trongtrot_masovungtrong": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot.vw_masovungtrong/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "masovungtrong": "Mã số vùng trồng",
+      "namcapmaso": "Năm cấp mã số",
+      "diadiemthuchien": "Địa điểm thực hiện",
+      "tennongdanthuchien": "Tên nông dân thực hiện",
+      "sodienthoai": "Số điện thoại",
+      "dientichthuchien": "Diện tích thực hiện (ha)",
+      "loaicaytrong": "Nội dung thực hiện",
+      "nangsuat": "Năng suất (tấn/ha)",
+      "giaban": "Giá bán (đồng/kg)",
+      "chiphi": "Chi phí (đồng/kg)",
+      "loinhuan": "Lợi nhuận (đồng/kg)",
+      "thitruongxuatkhau": "Đơn vị đầu tư mô hình",
+      "lienketbaotieu": "Liên kết bao tiêu",
+      "chungnhan": "Chứng nhận",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã",
+      "maso": "Mã nhận dạng"
+    }
+  },
+  "trongtrot_mobile_dichhai": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_trongtrot/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "id": "ID",
+      "fdate_format": "Thời gian ghi nhận",
+      "dichbenh": "Dịch bệnh",
+      "giaidoansinhtruong": "Giai đoạn sinh trưởng",
+      "linhvuc": "Lĩnh vực",
+      "loaicaycon": "Loại cây trồng",
+      "giongcaycon": "Giống cây trồng",
+      "nguoithuthap": "Người thu thập",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "mahuyen": "Mã huyện",
+      "tenhuyen": "Tên huyện",
+      "maxa": "Mã xã",
+      "tenxa": "Tên xã",
+      "trangthai": "Trạng thái",
+      "ghichu": "Ghi chú"
+    }
+  },
+ 
+  "channuoi_coso_nhayen": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_nhayen_mini/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tenchuho": "Tên chủ hộ",
+      "thoigianhoatdong": "Thời gian hoạt động",
+      "dientichnuoiyen": "Diện tích nuôi",
+      "dientichxaydung": "Diện tích xây dựng",
+      "sotangnuoiyen": "Số tầng nuôi",
+      "nhakethop": "Nhà kết hợp",
+      "nhachuyendung": "Nhà chuyên dụng",
+      "soluongchim": "Số lượng chim",
+      "cautrucnhanuoi": "Cấu trúc nhà nuôi",
+      "chuongcu": "Chuồng cu",
+      "soloravao": "Số lần ra vào",
+      "hethonglothonghoi": "Hệ thống lỗ thông hơi",
+      "thanhgiato": "Thanh giá tổ",
+      "hethongtaoamtrongnha": "Hệ thống tạo ẩm trong nhà",
+      "hethongtaoamngoaitroi": "Hệ thống tạo ẩm ngoài trời",
+      "thonkhupho": "Thôn khu phố",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã"
+    }
+  },
+  "channuoi_coso_channuoi": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_channuoi/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tencoso": "Tên cơ sở",
+      "masocoso": "Mã số cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "soluong": "Số lượng",
+      "ngaykiemtra": "Ngày kiểm tra",
+      "xeploai": "Xếp loại",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "maso": "Mã định danh"
+    }
+  },
+  "channuoi_coso_gietmo": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_gietmo/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tencoso": "Tên cơ sở",
+      "masocoso": "Mã số cơ sở",
+      "banghieu": "Bảng hiệu",
+      "giaydkkd": "Giấy đăng ký kinh doanh",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "soluong": "Số lượng",
+      "ngaykt": "Ngày kiểm tra",
+      "xeploailan1": "Xếp loại lần 1",
+      "xeploailan2": "Xếp loại lần 2",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "maso": "Mã định danh"
+    }
+  },
+  "channuoi_coso_aptrung": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_aptrung/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tencoso": "Tên cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "sogiaychungnhan": "Số giấy chứng nhận",
+      "ngaycap": "Ngày cấp",
+      "ngayhethan": "Ngày hết hạn",
+      "soluong": "Số lượng",
+      "solancap": "Số lần cấp",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "maso": "Mã định danh"
+    }
+  },
+  "channuoi_diemmohinh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_diemmohinh_channuoi/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tenmohinh": "Tên điểm mô hình",
+      "diadiemthuchien": "Địa điểm thực hiện",
+      "tenhothuchien": "Tên nông dân thực hiện",
+      "sodienthoai": "Số điện thoại",
+      "noidungthuchien": "Nội dung thực hiện",
+      "dientichthuchien": "Diện tích thực hiện (ha)",
+      "thoigianthuchien": "Thời gian thực hiện",
+      "donvidautu": "Đơn vị đầu tư mô hình",
+      "chungnhan": "Chứng nhận",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã",
+      "maso": "Mã nhận dạng"
+    }
+  },
+  "channuoi_mobile_dichbenh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_channuoi/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "id": "ID",
+      "fdate_format": "Thời gian ghi nhận",
+      "dichbenh": "Dịch bệnh",
+      "giaidoansinhtruong": "Giai đoạn sinh trưởng",
+      "linhvuc": "Lĩnh vực",
+      "loaicaycon": "Loại vật nuôi",
+      "giongcaycon": "Giống vật nuôi",
+      "nguoithuthap": "Người thu thập",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "mahuyen": "Mã huyện",
+      "tenhuyen": "Tên huyện",
+      "maxa": "Mã xã",
+      "tenxa": "Tên xã",
+      "trangthai": "Trạng thái",
+      "ghichu": "Ghi chú"
+    }
+  },
+  "thuysan_diemmohinh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuysan.vw_diemmohinh_thuysan/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tenmohinh": "Tên điểm mô hình",
+      "diadiemthuchien": "Địa điểm thực hiện",
+      "tenhothuchien": "Tên nông dân thực hiện",
+      "sodienthoai": "Số điện thoại",
+      "noidungthuchien": "Nội dung thực hiện",
+      "dientichthuchien": "Diện tích thực hiện (ha)",
+      "thoigianthuchien": "Thời gian thực hiện",
+      "donvidautu": "Đơn vị đầu tư mô hình",
+      "chungnhan": "Chứng nhận",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã",
+      "maso": "Mã nhận dạng"
+    }
+  },
+  "thuysan_vungnuoi": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuysan.vw_vungnuoi/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "tennguoidaidien": "Người đại diện",
+      "diachi": "Đại chỉ",
+      "sodienthoai": "Số điện thoại",
+      "giongthuysan": "Giống thủy sản",
+      "soluongnuoi": "Sớ lượng nuôi",
+      "trangthai": "Trạng thái",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "ghichu": "Ghi chú",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuysan_mobile_dichbenh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_thuysan/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "id": "ID",
+      "fdate_format": "Thời gian ghi nhận",
+      "dichbenh": "Dịch bệnh",
+      "giaidoansinhtruong": "Giai đoạn sinh trưởng",
+      "linhvuc": "Lĩnh vực",
+      "loaicaycon": "Loại thủy sản",
+      "giongcaycon": "Giống thủy sản",
+      "nguoithuthap": "Người thu thập",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "mahuyen": "Mã huyện",
+      "tenhuyen": "Tên huyện",
+      "maxa": "Mã xã",
+      "tenxa": "Tên xã",
+      "trangthai": "Trạng thái",
+      "ghichu": "Ghi chú"
+    }
+  },
+  "thuyloi_congtrinh_cong": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_cong/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên cống",
+      "namtrenkenh": "Thuộc tuyến kênh",
+      "thuoctram": "Thuộc trạm",
+      "motadiachi": "Mô tả địa chỉ",
+      "tinhtrang": "Tình trạng",
+      "nguongoc": "Nguồn gốc",
+      "soluong": "Số lượng",
+      "namxd": "Năm xây dựng",
+      "phanloaict": "Phân loại công trình",
+      "hientrangsd": "Hiện trạng sử dụng",
+      "namsudungkt": "Năm sử dụng khai thác",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_dap": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi_dap/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "ten": "Tên đập",
+      "dientichtuoithietke": "Diện tích tưới thiết kế (ha)",
+      "dientichtuoithucte": "Diện tích tưới thực tế (ha)",
+      "dientichtieu": "Diện tích tiêu (ha)",
+      "nhiemvukhac": "Nhiệm vụ khác",
+      "dientichluuvuc": "Diện tích lưu vực (km2)",
+      "dangdap": "Dạng đập",
+      "caotrinhdinhdap": "Cao trình đỉnh đập (m)",
+      "caotrinhdinhday": "Cao trình đáy đập (m)'",
+      "chieucao": "Chiều cao đập (m)",
+      "chieudai": "Chiều dài đập (m)",
+      "luuluongxalu": "Lưu lượng xả lũ (m3/s)",
+      "namxaydung": "Năm xây dựng",
+      "tenhientrangxa": "Hiện trạng",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_trambom": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_trambom/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên trạm bơm",
+      "diadiemxaydung": "Địa điểm xây dựng",
+      "dientichtuoithietke": "Diện tích tưới thiết kế (ha)",
+      "dientichtuoithucte": "Diện tích tưới thực tế (ha)",
+      "dientichtieu": "Diện tích tiêu (ha)",
+      "sotomay": "Số tờ máy",
+      "congsuat": "Công suất",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_hochua": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_hochua/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên hồ chứa",
+      "diachi": "Địa điểm",
+      "ftuoivu": "Diện tích tưới/vụ (ha)",
+      "fluuvuc": "Diện tích lưu vực (km2)",
+      "dientichmatnuoc": "Diện tích mặt nước (km2)",
+      "whuuich": "Dung tích hữu ích (10^6m3)",
+      "wtoanbo": "Dung tích toàn bộ (10^6m3)",
+      "mnc": "MNC (m)",
+      "mndbt": "MNDBT (m)",
+      "mndgc": "MNDGC (m)",
+      "dapchinhctdinhdap": "Cao trình đỉnh đập (m)",
+      "dapchinhhmax": "H max (m)",
+      "dapchinhl": "L (m)",
+      "sodapphu": "Số đập phụ (cái)",
+      "conglaynuoccaotrinhnguong": "Cao trình ngưỡng (m)",
+      "conglaynuockichthuoc": "Kích thước cống lấy nước (m)",
+      "conglaynuochinhthuc": "Hình thức cống lấy nước",
+      "tranxalucttran": "CT tràn",
+      "tranxaluhinhthuc": "Hình thức xả lũ",
+      "tranxalubtran": "Btràn",
+      "tranxaluluuluongthietke": "Lưu lượng thiết kế (m3/s)",
+      "cotransuco": "Có tràn sự cố",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_khac": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_khac/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên",
+      "namtrenkenh": "Thuộc tuyến kênh",
+      "thuoctram": "Thuộc trạm",
+      "motadiachi": "Mô tả địa chỉ",
+      "tinhtrang": "Tình trạng",
+      "nguongoc": "Nguồn gốc",
+      "soluong": "Số lượng",
+      "namxd": "Năm xây dựng",
+      "phanloaict": "Phân loại công trình",
+      "hientrangsd": "Hiện trạng sử dụng",
+      "namsudungkt": "Năm sử dụng khai thác",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_phutro": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_phutro/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên",
+      "thuoctram": "Thuộc trạm",
+      "motadiachi": "Mô tả địa chỉ",
+      "tinhtrang": "Tình trạng",
+      "nguongoc": "Nguồn gốc",
+      "soluong": "Số lượng",
+      "phanloaict": "Phân loại công trình",
+      "hientrangsd": "Hiện trạng sử dụng",
+      "namsudungkt": "Năm sử dụng khai thác",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_kenh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_kenh/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "ten": "Tên kênh",
+      "chuyenmuc": "Kênh",
+      "soluong": "Số lượng (cái)",
+      "phanloaict": "Phân loại công trình",
+      "nguongoc": "Nguồn gốc",
+      "namxd": "Năm xây dựng",
+      "namkt": "Năm sử dụng khai thác",
+      "hientrangsd": "Hiện trạng",
+      "tinhtrang": "Tình trạng",
+      "tram": "Trạm",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_phongchongsatlo": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_phongchongsatlo/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "tenct": "Tên công trình",
+      "chuyenmuc": "Công trình hiện có",
+      "tuyenbosongbobien": "Tuyến bờ sông, bờ biển",
+      "diadanh": "Địa điểm xây dựng",
+      "chieudai": "Chiều dài (m)",
+      "namkhoicong": "Năm khởi công",
+      "namhoanthanh": "Năm hoàn thành",
+      "giaiphapkythuat": "Giải pháp kĩ thuật",
+      "chatluongct": "Chất lượng công trình",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_diemsatlo": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_diemsatlo/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "diadiemxayra": "Địa điểm xảy ra",
+      "phanloaisatlo": "Phân loại sạt lở",
+      "tuyenbosongbobien": "Tuyến bờ sông, bờ biển",
+      "chieudai": "Chiều dài (m)",
+      "uoctinhthiethai": "Ước tính thiệt hại",
+      "diadanh": "Địa danh",
+      "ghichu": "Ghi chú",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_debao": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/haugiang/thuyloi.zv_congtrinh_debao/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "tendoande": "Tên đoạn đê",
+      "chuyenmuc": "Loại",
+      "diemdau": "Điểm đầu",
+      "diemcuoi": "Điểm cuối",
+      "chieudai": "Chiều dài đê bao (m)",
+      "chieurong": "Chiều rộng đê bao (m)",
+      "namtren_huyen": "Nằm trên huyện",
+      "namtren_xa": "Nằm trên xã",
+      "namduytu": "Năm duy tư",
+      "hientrangsd": "Hiện trạng",
+      "maso": "Mã định danh"
+    }
+  },
+
+  "thuyloi_diem_thiethai": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_diem_thiethai/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "diadiem": "Địa điểm",
+      "chuyenmuc": "Trạng thái",
+      "loaithientai": "Loại hình thiên tai",
+      "socan": "Số căn",
+      "uocthiethai": "Ước thiệt hại (triệu đồng)",
+      "kinhphihotro": "Kinh phí hỗ trợ (triệu đồng)",
+      "ghichu": "Ghi chú",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_doman_mobile": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_doman_mobile/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "ten": "Tên",
+      "ngaydo": "Ngày đo",
+      "doman": "Độ mặn"
+    }
+  },
+
+
+
+
+
+
+  "thuyloi_doman_codinh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/haugiang/thuyloi.thuyloi_doman_codinh/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "ten": "Tên",
+      "ngaydo": "Ngày đo",
+      "doman": "Độ mặn"
+    }
+  },
+  
+  "phattriennongthon_hoptacxa": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/phattriennongthon.vw_hoptacxa/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Lĩnh vực hoạt động",
+      "tencoso": "Tên hợp tác xã",
+      "diachi": "Địa chỉ",
+      "giamdoc": "Giám đốc",
+      "sodienthoai": "Số điện thoại",
+      "xeploai": "Xếp loại",
+      "namxeploai": "Năm xếp loại",
+      "nghanhnghehoatdong": "Nghành nghề hoạt động",
+      "ngaydangky": "Ngày đăng ký",
+      "solaodong": "Số lao động",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "maso": "Mã xác định"
+    }
+  },
+  "phattriennongthon_langnghe": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/phattriennongthon.vw_langnghe/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "ten": "Tên làng nghề",
+      "quyetdinhcongnhan": "Quyết định công nhận",
+      "namcongnhan": "Năm công nhận",
+      "diachi": "Địa chỉ",
+      "sohothamgiasx": "Số hộ tham gia sản xuất",
+      "thunhapbinhquan": "Thu nhập bình quân",
+      "nanglucsx": "Năng lực sản xuất",
+      "tinhhinhhd": "Tình hình hoạt động",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã"
+    }
+  },
+  "kiemlam_dongvatquyhiem": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_dongvatquyhiem/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Nhóm",
+      "chuyenmuc": "Chuyên mục",
+      "masocosonuoi": "Mã số cơ sở nuôi",
+      "tencoso": "Tên cơ sở",
+      "tenchucoso": "Tên chủ cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "socathecay": "Số cá thể cầy",
+      "socathekhi": "Số cá thể khỉ",
+      "socathenai": "Số cá thể nai",
+      "socathnhim": "Số cá thể nhím",
+      "tongcong": "Tổng cộng",
+      "xa": "Xã",
+      "huyen": "Huyện"
+    }
+  },
+  "kiemlam_dongvatthongthuong": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_dongvatthongthuong/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Nhóm",
+      "chuyenmuc": "Chuyên mục",
+      "masocosonuoi": "Mã số cơ sở nuôi",
+      "tencoso": "Tên cơ sở",
+      "tenchucoso": "Tên chủ cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "socathedui": "Số cá thể dúi",
+      "socathelonrung": "Số cá thể lợn rừng",
+      "tongcong": "Tổng cộng",
+      "xa": "Xã",
+      "huyen": "Huyện"
+    }
+  },
+  "kiemlam_thucvatquyhiem": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_thucvatquyhiem/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Nhóm",
+      "chuyenmuc": "Chuyên mục",
+      "masocosonuoi": "Mã số cơ sở nuôi",
+      "tencoso": "Tên cơ sở",
+      "tenchucoso": "Tên chủ cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "socathegianghuong": "Số cá thể giáng hương",
+      "tongcong": "Tổng cộng",
+      "xa": "Xã",
+      "huyen": "Huyện"
+    }
+  },
+  
+  "tichhop_datdai_htsdd": {
+    "iURL": [
+      "https://geo4.girs.vn/geoserver16/phuyen/wms?QUERY_LAYERS=phuyen:sudungdat_hientrang_polygon&LAYERS=phuyen:sudungdat_hientrang_polygon"
+    ],
+    "iDeep": "features~properties",
+    "iDetails": {
+      "masdd": "Mã loại",
+      "tensdd": "Loại",
+      "tennhom": "Nhóm"
+    }
+  },
+  "tichhop_datdai_thonhuong": {
+    "iURL": [
+      "https://geo4.girs.vn/geoserver16/phuyen/wms?QUERY_LAYERS=phuyen:thonhuong_polygon&LAYERS=phuyen:thonhuong_polygon"
+    ],
+    "iDeep": "features~properties",
+    "iDetails": {
+      "ma1": "Mã loại",
+      "mota": "Loai",
+      "dodoc": "Độ dốc"
+    }
+  },
+  "tichhop_tramtktv_py": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/tichhop_tramtktv_py/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Chuyên mục",
+      "chuyenmuc": "Trạm",
+      "fdate": "Thời gian ghi nhận",
+      "muatbthang": "Mưa trung bình tháng",
+      "amtbthang": "Ẳm trung bình tháng",
+      "nhietdotbthang": "Nhiệt độ trung bình tháng",
+      "luuluongcaonhat": "Lưu lượng sông cao nhất năm",
+      "mucnuoccaonhat": "Mực nước sông cao nhất năm",
+      "luuluongthapnhat": "Lưu lượng sông thấp nhất năm",
+      "mucnuocthapnhat": "Mực nước sông thấp nhất năm"
+    }
+  }
+}

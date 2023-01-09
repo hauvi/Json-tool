@@ -1,0 +1,125 @@
+{ 
+  "trongtrot_diemmohinh":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot.vw_diemmohinh_trongtrot/g0?"],
+    "iDeep": "",
+    "iDetails": {      
+      "chuyenmuc": "Chuyên mục", 
+      "maso": "Mã nhận dạng",
+      "tenmohinh":  "Tên điểm mô hình", 
+      "diadiemthuchien": "Địa điểm thực hiện", 
+      "tennongdan": "Tên nông dân thực hiện", 
+      "sodienthoai": "Số điện thoại", 
+      "dientichthuchien": "Diện tích thực hiện (m2)", 
+      "noidungthuchien": "Nội dung thực hiện", 
+      "thoigianthuchien": "Thời gian thực hiện", 
+      "nangsuat": "Năng suất (tấn/ha)", 
+      "giaban": "Giá bán (đồng/kg)", 
+      "chiphi": "Chi phí (đồng/kg)", 
+      "loinhuan": "Lợi nhuận (đồng/kg)", 
+      "donvidautu": "Đơn vị đầu tư mô hình", 
+      "lienketbaotieu": "Liên kết bao tiêu", 
+      "chungnhan": "Chứng nhận", 
+      "ghichu": "Ghi chú", 
+      "tenhuyen": "Tên huyện", 
+      "tenxa": "Tên xã" 
+    }
+  },
+
+  "trongtrot_masovungtrong":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot.vw_masovungtrong/g0?"],
+    "iDeep": "",
+    "iDetails": {      
+      "chuyenmuc": "Chuyên mục", 
+      "masovungtrong": "Mã số vùng trồng", 
+      "namcapmaso":  "Năm cấp mã số", 
+      "diadiemthuchien": "Địa điểm thực hiện", 
+      "tennongdanthuchien": "Tên nông dân thực hiện", 
+      "sodienthoai": "Số điện thoại", 
+      "dientichthuchien": "Diện tích thực hiện (ha)", 
+      "loaicaytrong": "Nội dung thực hiện", 
+      "nangsuat": "Năng suất (tấn/ha)", 
+      "giaban": "Giá bán (đồng/kg)", 
+      "chiphi": "Chi phí (đồng/kg)", 
+      "loinhuan": "Lợi nhuận (đồng/kg)", 
+      "thitruongxuatkhau": "Đơn vị đầu tư mô hình", 
+      "lienketbaotieu": "Liên kết bao tiêu", 
+      "chungnhan": "Chứng nhận", 
+      "ghichu": "Ghi chú", 
+      "tenhuyen": "Tên huyện", 
+      "tenxa": "Tên xã" ,
+      "maso": "Mã nhận dạng"
+    }
+  },
+
+  "trongtrot_mobile_dichhai":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_trongtrot/g0"],
+    "iDeep": "",
+    "iDetails": {      
+      "id": "ID",
+      "fdate_format": "Thời gian ghi nhận",
+      "dichbenh": "Sinh vật gây hại",
+      "giaidoansinhtruong": "Giai đoạn sinh trưởng",
+      "linhvuc": "Mô tả",
+      "loaicaycon": "Loại cây trồng",
+      "giongcaycon": "Giống cây trồng",
+      "nguoithuthap": "Người thu thập",
+      "x": "X",
+      "y": "Y",
+      "mahuyen": "Mã huyện",
+      "tenhuyen": "Tên huyện",
+      "maxa": "Mã xã",
+      "tenxa": "Tên xã",
+      "trangthai" : "Trạng thái",
+      "ghichu": "Ghi chú"
+    }
+  },
+
+
+  "trongtrot_cocaugionglua":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot_cocaugionglua/g0"],
+    "iDeep": "",
+    "iDetails": {  
+      "idhc": "idhc",
+      "tenhuyen": "Tên huyện",    
+      "nam": "Chuyên mục", 
+      "vu": "Vụ", 
+      "gionglua": "Giống lúa", 
+      "dientich": "Diện tích (ha)", 
+      "fdate": "Bắt đầu vụ", 
+      "tdate": "Kết thúc vụ", 
+      "loaigiong": "Loại giống"
+    }
+  },
+  "trongtrot_dtcaytronghuyen":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot_dtcaytronghuyen/g0"],
+    "iDeep": "",
+    "iDetails": {  
+      "tentinh": "Tên tỉnh", 
+      "tenhuyen": "Tên huyện",    
+      "nhom": "Nhóm",
+      "chuyenmuc": "Cây trồng", 
+      "dientich": "Diện tích", 
+      "dtthuhoach": "Diện tích thu hoạch", 
+      "nangsuat": "Năng suất", 
+      "sanluong": "Sản lượng", 
+      "nam": "Năm báo cáo",
+      "ghichu": "Ghi chú"
+    }
+  },
+  "trongtrot_dtcaytrongtinh":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot_dtcaytrongtinh/g0"],
+    "iDeep": "",
+    "iDetails": {  
+      "tentinh": "Tên tỉnh",    
+      "nhom": "Nhóm",
+      "chuyenmuc": "Cây trồng", 
+      "dientich": "Diện tích", 
+      "dientichthuhoach": "Diện tích thu hoạch", 
+      "nangsuat": "Năng suất", 
+      "sanluong": "Sản lượng", 
+      "nam": "Năm báo cáo",
+      "ghichu": "Ghi chú"
+    }
+  }
+  
+}

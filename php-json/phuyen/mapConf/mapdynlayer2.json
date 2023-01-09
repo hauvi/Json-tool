@@ -1,0 +1,530 @@
+{
+  "thuysan_catra_solieunuoi": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "thuysan_tonghop_chebien": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hctinh/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_tinh_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "thuysan_tonghop_khaithac": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hctinh/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_tinh_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+
+  "thuysan_tonghop_nuoitrong": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "channuoi_hgd_tonghop": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "channuoi_thdhnn_dichtaheo": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  
+  "trongtrot_sx_2020_tiendo": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    },
+    "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc"
+	},
+	
+	
+  "trongtrot_sx_2020_tiendo_xa": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hcxa/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_xa_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    },
+    "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc"
+	},
+	
+
+  "trongtrot_sx_2020_tiendo_capxa": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hcxa/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_xa_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    },
+    "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc",
+    "styleArr": [
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      }
+    ]
+  },	
+  "trongtrot_tdsx": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    },
+    "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc",
+    "styleArr": [
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      }
+    ]
+  },
+  "trongtrot_tdsx_capxa": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hcxa/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_xa_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    },
+    "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc",
+    "styleArr": [
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      }
+    ]
+  },
+
+  "tichhop_radar_lua": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/hcxa/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_xa_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    },
+    "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc",
+    "styleArr": [
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"
+        },
+        "size": {
+          "default": 4
+        }
+      }
+    ]
+  },
+  "trongtrot_dtcaytronghuyen": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "trongtrot_dtcaytrongtinh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hctinh/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_tinh_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "trongtrot_cocaugionglua": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hchuyen/*/{z}/{x}/{y}",
+    "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+    "style": {
+      "color": {
+        "default": "rgba(0,0,0,0)",
+        "field": "tenkhuchucnang",
+        "keyval": [
+          "Đất cây xanh đô thị",
+          "#008D4B",
+          "Đất thương mại",
+          "#ED1E24",
+          "Khu dân cư",
+          "#FFFAC2",
+          "Đất dịch vụ",
+          "#0094DA"
+        ]
+      }
+    }
+  },
+  "group4Map": true,
+    "group4MapCodeColor": "YlGnBu",
+    "group4MapField4Color": "tenhc",
+  "styleArr": [
+  {
+    "fcode": "default",
+    "fname": "Không phân loại",
+    "color": {
+      "default": "#1CFC1C"
+    },
+    "size": {
+      "default": 4
+    }
+  },
+  {
+    "fcode": "default",
+    "fname": "Không phân loại",
+    "color": {
+      "default": "#1CFC1C"
+    },
+    "size": {
+      "default": 4
+    }
+  },
+  {
+    "fcode": "default",
+    "fname": "Không phân loại",
+    "color": {
+      "default": "#1CFC1C"
+    },
+    "size": {
+      "default": 4
+    }
+  }
+],
+"channuoi_tongdan": {
+  "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hchuyen/*/{z}/{x}/{y}",
+  "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+  "style": {
+    "color": {
+      "default": "rgba(0,0,0,0)",
+      "field": "tenkhuchucnang",
+      "keyval": [
+        "Đất cây xanh đô thị",
+        "#008D4B",
+        "Đất thương mại",
+        "#ED1E24",
+        "Khu dân cư",
+        "#FFFAC2",
+        "Đất dịch vụ",
+        "#0094DA"
+      ]
+    }
+  }
+},
+"channuoi_dichbenh_fix": {
+  "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hchuyen/*/{z}/{x}/{y}",
+  "iSl": "donvihanhchinh.hanhchinh_huyen_view",
+  "style": {
+    "color": {
+      "default": "rgba(0,0,0,0)",
+      "field": "tenkhuchucnang",
+      "keyval": [
+        "Đất cây xanh đô thị",
+        "#008D4B",
+        "Đất thương mại",
+        "#ED1E24",
+        "Khu dân cư",
+        "#FFFAC2",
+        "Đất dịch vụ",
+        "#0094DA"
+      ]
+    }
+  }
+}
+}

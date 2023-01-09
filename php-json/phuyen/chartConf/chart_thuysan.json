@@ -1,0 +1,137 @@
+{
+  "thuysan_diemmohinh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuysan.vw_diemmohinh_thuysan/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số vị trí",
+        "chartType": "TextBox",
+        "keyDim": "maso",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng điểm mô hình theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng điểm mô hình theo đơn vị đầu tư",
+        "selfFilter": "donvidautu",
+        "chartType": "Bar",
+        "keyDim": "donvidautu",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng điểm mô hình theo loại chứng nhận",
+        "selfFilter": "chungnhan",
+        "chartType": "Bar",
+        "keyDim": "chungnhan",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Diện tích thực hiện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichthuchien",
+        "filter": []
+      }
+    }
+  },
+
+  "thuysan_vungnuoi": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuysan.vw_vungnuoi/g0?",
+    "DimGroupList": {
+      
+      "chart1": {
+        "nameChart": "Số lượng vùng nuôi theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Diện tích nuôi theo huyện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichnuoi",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng vùng nuôi theo giống thủy sản",
+        "selfFilter": "giongthuysan",
+        "chartType": "Bar",
+        "keyDim": "giongthuysan",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số lượng vùng nuôi theo trạng thái",
+        "selfFilter": "trangthai",
+        "chartType": "Bar",
+        "keyDim": "trangthai",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+
+  "thuysan_mobile_dichbenh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_thuysan/g0?",
+    "DimGroupList": {
+      "chart1": {
+        "nameChart": "Số vị trí theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số vị trí theo loại bệnh",
+        "selfFilter": "dichbenh",
+        "chartType": "Row",
+        "keyDim": "dichbenh",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số vị trí theo loại thủy sản",
+        "selfFilter": "loaicaycon",
+        "chartType": "Row",
+        "keyDim": "loaicaycon",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Số vị trí theo giống thủy sản",
+        "selfFilter": "giongcaycon",
+        "chartType": "Row",
+        "keyDim": "giongcaycon",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  }
+ 
+}

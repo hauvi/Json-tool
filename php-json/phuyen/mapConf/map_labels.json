@@ -1,0 +1,123 @@
+{
+	"trongtrot_masovungtrong": {
+		"field": "masovungtrong",
+		"color": "#C55A11"
+	},
+	"trongtrot_diemmohinh": {
+		"field": "tenmohinh",
+		"color": "#548235"
+	},
+	"trongtrot_mobile_dichhai": {
+		"field": "loaicaycon",
+		"color": "#FF6804"
+	},
+	"channuoi_coso_nhayen": {
+		"field": "tenchuho",
+		"color": "#4472C4"
+	},
+	"channuoi_coso_channuoi": {
+		"field": "tencoso",
+		"color": "#00AF4D"
+	},
+	"channuoi_coso_gietmo": {
+		"field": "banghieu",
+		"color": "#ff99cc"
+	},
+	"channuoi_coso_aptrung": {
+		"field": "tencoso",
+		"color": "#BF9000"
+	},
+	"channuoi_diemmohinh": {
+		"field": "tenmohinh",
+		"color": "#FF7C80"
+	},
+	"channuoi_mobile_dichbenh": {
+		"field": "loaicaycon",
+		"color": "#A50021"
+	},
+	"thuysan_diemmohinh": {
+		"field": "tenmohinh",
+		"color": "#0070C0"
+	},
+	"thuysan_vungnuoi": {
+		"field": "tennguoidaidien",
+		"color": "#0066FF"
+	},
+	"thuysan_mobile_dichbenh": {
+		"field": "loaicaycon",
+		"color": "#7030A0"
+	},
+	"thuyloi_congtrinh_cong": {
+		"field": "ten",
+		"color": "#5577D7"
+	},
+	"thuyloi_dap": {
+		"field": "ten",
+		"color": "#A24A0E"
+	},
+	"thuyloi_congtrinh_trambom": {
+		"field": "ten",
+		"color": "#00CC99"
+	},
+
+	"thuyloi_congtrinh_hochua": {
+		"field": "ten",
+		"color": "#85E214"
+	},
+	"thuyloi_congtrinh_khac": {
+		"field": "ten",
+		"color": "#EE8F30"
+	},
+	"thuyloi_congtrinh_phutro": {
+		"field": "ten",
+		"color": "#FF9999"
+	},
+	"thuyloi_congtrinh_kenh": {
+		"field": "ten"
+	},
+
+	"thuyloi_diemsatlo": {
+		"field": "diadiemxayra",
+		"color": "#CC3300"
+	},
+	"thuyloi_diem_thiethai": {
+		"field": "loaithientai",
+		"color": "#EE833A"
+	},
+	"thuyloi_doman_mobile": {
+		"field": "doman",
+		"color": "#FF00FF"
+	},
+
+
+
+
+
+
+	"phattriennongthon_hoptacxa": {
+		"field": "tencoso",
+		"color": "#99CC00"
+	},
+	"phattriennongthon_langnghe": {
+		"field": "ten",
+		"color": "#198754"
+	},
+	"lamnghiep_qldongvathoangda_dongvatquyhiem": {
+		"field": "tenchucoso",
+		"color": "#BF9000"
+	},
+	"lamnghiep_qldongvathoangda_dongvatthongthuong": {
+		"field": "tenchucoso",
+		"color": "#F3AA79"
+	},
+	"lamnghiep_qldongvathoangda_thucvatquyhiem": {
+		"field": "tenchucoso",
+		"color": "#548235"
+	},
+	"tichhop_tramtktv_py": {
+		"field": "chuyenmuc",
+		"color": "#0000FF"
+	}
+	
+
+}

@@ -1,0 +1,481 @@
+{
+  "trongtrot_diemmohinh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/trongtrot.vw_diemmohinh_trongtrot/*/{z}/{x}/{y}",
+    "iSl": "trongtrot.vw_diemmohinh_trongtrot",
+    "style": {
+      "layout": {
+        "icon-image": "icon_trongtrot_diemmohinh",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "trongtrot_masovungtrong": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/trongtrot.vw_masovungtrong/*/{z}/{x}/{y}",
+    "iSl": "trongtrot.vw_masovungtrong",
+    "style": {
+      "layout": {
+        "icon-image": "icon_trongtrot_masovungtrong",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "trongtrot_mobile_dichhai": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_trongtrot/*/{z}/{x}/{y}",
+    "iSl": "mobile.zv_mobile_thucdia_nn_data_daduyet_trongtrot",
+    "style": {
+      "layout": {
+        "icon-image": "icon_trongtrot_dichhai",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "channuoi_coso_nhayen": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/channuoi.vw_coso_nhayen_mini/*/{z}/{x}/{y}",
+    "iSl": "channuoi.vw_coso_nhayen_mini",
+    "style": {
+      "layout": {
+        "icon-image": "icon_channuoi_coso_nhayen",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "channuoi_coso_gietmo": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/channuoi.vw_coso_gietmo/*/{z}/{x}/{y}",
+    "iSl": "channuoi.vw_coso_gietmo",
+    "style": {
+      "layout": {
+        "icon-image": "icon_channuoi_cssxncn_gietmo",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "channuoi_coso_channuoi": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/channuoi.vw_coso_channuoi/*/{z}/{x}/{y}",
+    "iSl": "channuoi.vw_coso_channuoi",
+    "style": {
+      "layout": {
+        "icon-image": "icon_channuoi_cssxncn_channuoi",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "channuoi_coso_aptrung": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/channuoi.vw_coso_aptrung/*/{z}/{x}/{y}",
+    "iSl": "channuoi.vw_coso_aptrung",
+    "style": {
+      "layout": {
+        "icon-image": "icon_channuoi_cssxncn_trungcongiong",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "channuoi_diemmohinh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/channuoi.vw_diemmohinh_channuoi/*/{z}/{x}/{y}",
+    "iSl": "channuoi.vw_diemmohinh_channuoi",
+    "style": {
+      "layout": {
+        "icon-image": "icon_channuoi_diemmohinh",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "channuoi_mobile_dichbenh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_channuoi/*/{z}/{x}/{y}",
+    "iSl": "mobile.zv_mobile_thucdia_nn_data_daduyet_channuoi",
+    "style": {
+      "layout": {
+        "icon-image": "icon_channuoi_mobile_dichbenh",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuysan_diemmohinh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuysan.vw_diemmohinh_thuysan/*/{z}/{x}/{y}",
+    "iSl": "thuysan.vw_diemmohinh_thuysan",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuysan_diemmohinh",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuysan_mobile_dichbenh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_thuysan/*/{z}/{x}/{y}",
+    "iSl": "mobile.zv_mobile_thucdia_nn_data_daduyet_thuysan",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuysan_mobile_dichbenh",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_congtrinh_cong": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_congtrinh_cong/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_cong",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_cong",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_dap": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi_dap/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_dap",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_dap",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_congtrinh_trambom": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_congtrinh_trambom/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_trambom",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_trambom",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_congtrinh_hochua": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_congtrinh_hochua/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_hochua",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_hochua",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_congtrinh_khac": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_congtrinh_khac/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_khac",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_ctkhac",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_congtrinh_phutro": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_congtrinh_phutro/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_phutro",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_ctphutro",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_diemsatlo": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_diemsatlo/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_diemsatlo",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_diemsatlo",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_diem_thiethai": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_diem_thiethai/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_diem_thiethai",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_diem_thiethai",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_doman_mobile": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_doman_mobile/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_doman_mobile",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_doman_mobile",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "phattriennongthon_hoptacxa": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/phattriennongthon.vw_hoptacxa/*/{z}/{x}/{y}",
+    "iSl": "phattriennongthon.vw_hoptacxa",
+    "style": {
+      "layout": {
+        "icon-image": "icon_ptnt_hoptacxa",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "phattriennongthon_langnghe": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/phattriennongthon.vw_langnghe/*/{z}/{x}/{y}",
+    "iSl": "phattriennongthon.vw_langnghe",
+    "style": {
+      "layout": {
+        "icon-image": "icon_ptnt_langnghe",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "lamnghiep_qldongvathoangda_dongvatquyhiem": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/kiemlam_dongvatquyhiem/*/{z}/{x}/{y}",
+    "iSl": "kiemlam.v_gaynuoidongvathoangdaquyhiem",
+    "style": {
+      "layout": {
+        "icon-image": "icon_kiemlam_dvthuong",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "lamnghiep_qldongvathoangda_dongvatthongthuong": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/kiemlam_dongvatthongthuong/*/{z}/{x}/{y}",
+    "iSl": "kiemlam.v_gaynuoidongvathoangdathongthuong",
+    "style": {
+      "layout": {
+        "icon-image": "icon_kiemlam_dvhiem",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "lamnghiep_qldongvathoangda_thucvatquyhiem": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/kiemlam_thucvatquyhiem/*/{z}/{x}/{y}",
+    "iSl": "kiemlam.v_gaynuoithucvatquyhiem",
+    "style": {
+      "layout": {
+        "icon-image": "icon_kiemlam_tv",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "thuyloi_doman_all": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/thuyloi.zv_doman/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.zv_doman",
+    "style": {
+      "color": {
+        "default": "#00FF00",
+        "field": "doman",
+        "keyval": [
+          [
+            1,
+            "#fff5f0"
+          ],
+          [
+            2,
+            "#fee0d2"
+          ],
+          [
+            3,
+            "#fcbba1"
+          ],
+          [
+            4,
+            "#fc9272"
+          ],
+          [
+            5,
+            "#fb6a4a"
+          ],
+          [
+            6,
+            "#ef3b2c"
+          ],
+          [
+            7,
+            "#cb181d"
+          ],
+          [
+            8,
+            "#a50f15"
+          ],
+          [
+            9,
+            "#67000d"
+          ]
+        ]
+      },
+      "size": {
+        "default": 8
+      }
+    }
+  },
+  "thuyloi_doman_codinh": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/thuyloi.zv_doman_codinh/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.zv_doman_codinh",
+    "style": {
+      "layout": {
+        "icon-image": "icon_thuyloi_doman_codinh",
+        "icon-size": 0.175,
+        "icon-anchor": "center",
+        "icon-offset": [
+          0,
+          -100
+        ],
+        "icon-allow-overlap": true
+      }
+    }
+  },
+  "tichhop_tramtktv_py": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/tichhop_tramtktv_py/*/{z}/{x}/{y}",
+    "iSl": "khituongthuyvan.khituongthuyvan_view",
+    "style": {
+      "color": {
+        "default": "#0000FF"
+      },
+      "size": {
+        "default": 8
+      }
+    }
+  }
+}

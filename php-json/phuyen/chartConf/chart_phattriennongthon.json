@@ -1,0 +1,107 @@
+{
+  "phattriennongthon_hoptacxa": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/phattriennongthon.vw_hoptacxa/g0?",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số hợp tác xã",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+
+      "chart1": {
+        "nameChart": "Số hợp tác xã theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số hợp tác xã theo xếp loại",
+        "selfFilter": "xeploai",
+        "chartType": "Row",
+        "keyDim": "xeploai",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số hợp tác xã theo lĩnh vực",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "chuyenmuc",
+        "filter": []
+      }
+      
+   
+   
+    }
+   
+  },
+
+  "phattriennongthon_langnghe": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/phattriennongthon.vw_langnghe/g0?",
+    "DimGroupList": {
+
+      "numberbox": {
+        "nameChart": "Tổng số làng nghề",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+
+      "chart1": {
+        "nameChart": "Số làng nghề theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+
+      "chart2": {
+        "nameChart": "Số làng nghề theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "chuyenmuc",
+        "filter": []
+      },
+
+      "chart3": {
+        "nameChart": "Số làng nghề theo năm công nhận",
+        "selfFilter": "namcongnhan",
+        "chartType": "Bar",
+        "keyDim": "namcongnhan",
+        "typeMap": "Count",
+        "keyMap": "namcongnhan",
+        "filter": []
+      },
+
+      "chart4": {
+        "nameChart": "Số hộ tham gia sản xuất theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "sohothamgiasx",
+        "filter": []
+      }
+      
+    
+    
+    }
+   
+  }
+
+}

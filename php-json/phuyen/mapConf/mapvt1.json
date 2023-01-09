@@ -1,0 +1,91 @@
+{
+  "thuyloi_congtrinh_kenh":{
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi_congtrinh_kenh/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_kenh_moi",
+    "style": {
+      "color": {
+        "default": "#2196f3",
+        "field": "chuyenmuc",
+        "keyval": [
+          "Kênh", "#2196f3"
+        ]        
+      },
+      "width": {
+        "default": 3,
+        "field": "chuyenmuc",
+        "keyval": [
+          "Kênh", 3.5
+        ]        
+      }
+    }
+  },
+  "thuyloi_congtrinh_phongchongsatlo":{
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuyloi.vw_congtrinh_phongchongsatlo/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.vw_congtrinh_phongchongsatlo",
+    "style": {
+      "color": {
+        "default": "#945F4E",
+        "field": "chuyenmuc",
+        "keyval": [
+          "tenct", "#945F4E"
+        ]        
+      },
+      "width": {
+        "default": 3,
+        "field": "chuyenmuc",
+        "keyval": [
+          "tenct", 3.5
+        ]        
+      }
+    }
+  },
+  "thuyloi_congtrinh_debao_HG":{
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/thuyloi.zv_congtrinh_debao/*/{z}/{x}/{y}",
+    "iSl": "thuyloi.zv_congtrinh_debao",
+    "style": {
+      "color": {
+        "default": "#C65B11",
+        "field": "chuyenmuc",
+        "keyval": [
+          "Đê bao cấp 1", "#C65B11",
+          "Đê bao cấp 2", "#C65B11",
+          "Đê bao cấp 3", "#C65B11"
+        ]            
+      },
+      "width": {
+        "default": 3,
+        "field": "chuyenmuc",
+        "keyval": [
+          "Đê bao cấp 1", 3,
+          "Đê bao cấp 2", 2,
+          "Đê bao cấp 3", 1
+        ]     
+      }
+    }
+  },
+
+  "nuocsach_tuyenong_HG":{
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/haugiang/nuocsach.zv_tuyenong/*/{z}/{x}/{y}",
+    "iSl": "nuocsach.zv_tuyenong",
+    "style": {
+      "color": {
+        "default": "#2196f3",
+        "field": "chuyenmuc",
+        "keyval": [
+          "Tuyến ống cấp 1", "#2F5597",
+          "Tuyến ống cấp 2", "#2F5597"
+        ]        
+      },
+      "width": {
+        "default": 3,
+        "field": "chuyenmuc",
+        "keyval": [
+          "Tuyến ống cấp 1", 3.5,
+          "Tuyến ống cấp 2", 2.5
+        ]        
+      }
+    }
+  }
+
+  
+}

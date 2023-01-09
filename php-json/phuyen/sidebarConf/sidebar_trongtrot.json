@@ -1,0 +1,100 @@
+{
+   "trongtrot": {
+      "pContent": {
+         "title": "Trồng trọt và Bảo vệ thực vật",
+         "id": "trongtrot",
+         "isEx": false,
+         "isSelect": false,
+         "pChildContent": [
+            {
+               "title": "Dịch bệnh cây trồng",
+               "id": "trongtrot_dichhai",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Vị trí phát hiện Sinh vật gây hại",
+                     "id": "trongtrot_mobile_dichhai",
+                     "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_trongtrot_dichhai_min.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title": "Cơ sở sản xuất nông nghiệp",
+               "id": "trongtrot_cososanxuat",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Điểm mô hình trồng trọt",
+                     "id": "trongtrot_diemmohinh",
+                     "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_trongtrot_diemmohinh_min.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "isCheckable": true,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Điểm mã số vùng trồng",
+                     "id": "trongtrot_masovungtrong",
+                     "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_trongtrot_masovungtrong_min.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "isCheckable": true,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title": "Tình hình trồng trọt",
+               "id": "trongtrot_baocao",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Báo cáo cơ cấu giống lúa",
+                     "id": "trongtrot_cocaugionglua",              
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Báo cáo diện tích cây trồng tỉnh",
+                     "id": "trongtrot_dtcaytrongtinh",              
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Báo cáo diện tích cây trồng huyện",
+                     "id": "trongtrot_dtcaytronghuyen",              
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title":"Bản đồ đất",
+               "id":"trongtrot_bando",
+               "isEx":false,
+               "isSelect":false,
+               "pChildContent":[
+                  {
+                     "title":"Bản đồ độ thích hợp đất nông nghiệp",
+                     "id":"trongtrot_bando", 
+					 "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/legend_trongtrot_thichopdat.png",					 
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[                      
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

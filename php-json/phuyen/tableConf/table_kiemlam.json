@@ -1,0 +1,63 @@
+{
+  "lamnghiep_qldongvathoangda_dongvatquyhiem": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_dongvatquyhiem/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Nhóm",
+      "chuyenmuc": "Chuyên mục",
+      "masocosonuoi": "Mã số cơ sở nuôi",
+      "tencoso": "Tên cơ sở",
+      "tenchucoso": "Tên chủ cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "socathecay": "Số cá thể cầy",
+      "socathekhi": "Số cá thể khỉ",
+      "socathenai": "Số cá thể nai",
+      "socathnhim": "Số cá thể nhím",
+      "tongcong": "Tổng cộng",
+      "xa": "Xã",
+      "huyen": "Huyện"
+    }
+  },
+  "lamnghiep_qldongvathoangda_dongvatthongthuong": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_dongvatthongthuong/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Nhóm",
+      "chuyenmuc": "Chuyên mục",
+      "masocosonuoi": "Mã số cơ sở nuôi",
+      "tencoso": "Tên cơ sở",
+      "tenchucoso": "Tên chủ cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "socathedui": "Số cá thể dúi",
+      "socathelonrung": "Số cá thể lợn rừng",
+      "tongcong": "Tổng cộng",
+      "xa": "Xã",
+      "huyen": "Huyện"
+    }
+  },
+  "lamnghiep_qldongvathoangda_thucvatquyhiem": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_thucvatquyhiem/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Nhóm",
+      "chuyenmuc": "Chuyên mục",
+      "masocosonuoi": "Mã số cơ sở nuôi",
+      "tencoso": "Tên cơ sở",
+      "tenchucoso": "Tên chủ cơ sở",
+      "diachi": "Địa chỉ",
+      "sdt": "Số điện thoại",
+      "socathegianghuong": "Số cá thể giáng hương",
+      "tongcong": "Tổng cộng",
+      "xa": "Xã",
+      "huyen": "Huyện"
+    }
+  }
+}

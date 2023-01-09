@@ -1,0 +1,241 @@
+{
+  "thuyloi_congtrinh_cong": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_cong/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên cống",
+      "namtrenkenh": "Thuộc tuyến kênh",
+      "thuoctram": "Thuộc trạm",
+      "motadiachi": "Mô tả địa chỉ",
+      "tinhtrang": "Tình trạng",
+      "nguongoc": "Nguồn gốc",
+      "soluong": "Số lượng",
+      "namxd": "Năm xây dựng",
+      "phanloaict": "Phân loại công trình",
+      "hientrangsd": "Hiện trạng sử dụng",
+      "namsudungkt": "Năm sử dụng khai thác",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_dap": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi_dap/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "ten": "Tên đập",
+      "dientichtuoithietke": "Diện tích tưới thiết kế (ha)",
+      "dientichtuoithucte": "Diện tích tưới thực tế (ha)",
+      "dientichtieu": "Diện tích tiêu (ha)",
+      "nhiemvukhac": "Nhiệm vụ khác",
+      "dientichluuvuc": "Diện tích lưu vực (km2)",
+      "dangdap": "Dạng đập",
+      "caotrinhdinhdap": "Cao trình đỉnh đập (m)",
+      "caotrinhdinhday": "Cao trình đáy đập (m)'",
+      "chieucao": "Chiều cao đập (m)",
+      "chieudai": "Chiều dài đập (m)",
+      "luuluongxalu": "Lưu lượng xả lũ (m3/s)",
+      "namxaydung": "Năm xây dựng",
+      "tenhientrangxa": "Hiện trạng",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_trambom": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_trambom/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên trạm bơm",
+      "diadiemxaydung": "Địa điểm xây dựng",
+      "dientichtuoithietke": "Diện tích tưới thiết kế (ha)",
+      "dientichtuoithucte": "Diện tích tưới thực tế (ha)",
+      "dientichtieu": "Diện tích tiêu (ha)",
+      "sotomay": "Số tờ máy",
+      "congsuat": "Công suất",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_hochua": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_hochua/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên hồ chứa",
+      "diachi": "Địa điểm",
+      "ftuoivu": "Diện tích tưới/vụ (ha)",
+      "fluuvuc": "Diện tích lưu vực (km2)",
+      "dientichmatnuoc": "Diện tích mặt nước (km2)",
+      "whuuich": "Dung tích hữu ích (10^6m3)",
+      "wtoanbo": "Dung tích toàn bộ (10^6m3)",
+      "mnc": "MNC (m)",
+      "mndbt": "MNDBT (m)",
+      "mndgc": "MNDGC (m)",
+      "dapchinhctdinhdap": "Cao trình đỉnh đập (m)",
+      "dapchinhhmax": "H max (m)",
+      "dapchinhl": "L (m)",
+      "sodapphu": "Số đập phụ (cái)",
+      "conglaynuoccaotrinhnguong": "Cao trình ngưỡng (m)",
+      "conglaynuockichthuoc": "Kích thước cống lấy nước (m)",
+      "conglaynuochinhthuc": "Hình thức cống lấy nước",
+      "tranxalucttran": "CT tràn",
+      "tranxaluhinhthuc": "Hình thức xả lũ",
+      "tranxalubtran": "Btràn",
+      "tranxaluluuluongthietke": "Lưu lượng thiết kế (m3/s)",
+      "cotransuco": "Có tràn sự cố",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_khac": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_khac/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên",
+      "namtrenkenh": "Thuộc tuyến kênh",
+      "thuoctram": "Thuộc trạm",
+      "motadiachi": "Mô tả địa chỉ",
+      "tinhtrang": "Tình trạng",
+      "nguongoc": "Nguồn gốc",
+      "soluong": "Số lượng",
+      "namxd": "Năm xây dựng",
+      "phanloaict": "Phân loại công trình",
+      "hientrangsd": "Hiện trạng sử dụng",
+      "namsudungkt": "Năm sử dụng khai thác",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_phutro": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_phutro/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Phân loại",
+      "ten": "Tên",
+      "thuoctram": "Thuộc trạm",
+      "motadiachi": "Mô tả địa chỉ",
+      "tinhtrang": "Tình trạng",
+      "nguongoc": "Nguồn gốc",
+      "soluong": "Số lượng",
+      "phanloaict": "Phân loại công trình",
+      "hientrangsd": "Hiện trạng sử dụng",
+      "namsudungkt": "Năm sử dụng khai thác",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_kenh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi_congtrinh_kenh/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "tram": "Trạm",
+      "ten": "Tên kênh",
+      "soluong": "Số lượng (cái)",
+      "phanloaict": "Phân loại công trình",
+      "nguongoc": "Nguồn gốc",
+      "namxd": "Năm xây dựng",
+      "namkt": "Năm sử dụng khai thác",
+      "hientrangsd": "Hiện trạng",
+      "tinhtrang": "Tình trạng",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_congtrinh_phongchongsatlo": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_phongchongsatlo/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "tenct": "Tên công trình",
+      "chuyenmuc": "Công trình hiện có",
+      "tuyenbosongbobien": "Tuyến bờ sông, bờ biển",
+      "diadanh": "Địa điểm xây dựng",
+      "chieudai": "Chiều dài (m)",
+      "namkhoicong": "Năm khởi công",
+      "namhoanthanh": "Năm hoàn thành",
+      "giaiphapkythuat": "Giải pháp kĩ thuật",
+      "chatluongct": "Chất lượng công trình",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_diemsatlo": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_diemsatlo/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "diadiemxayra": "Địa điểm xảy ra",
+      "phanloaisatlo": "Phân loại sạt lở",
+      "tuyenbosongbobien": "Tuyến bờ sông, bờ biển",
+      "chieudai": "Chiều dài (m)",
+      "uoctinhthiethai": "Ước tính thiệt hại",
+      "diadanh": "Địa danh",
+      "ghichu": "Ghi chú",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_diem_thiethai": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_diem_thiethai/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "diadiem": "Địa điểm",
+      "chuyenmuc": "Trạng thái",
+      "loaithientai": "Loại hình thiên tai",
+      "socan": "Số căn",
+      "uocthiethai": "Ước thiệt hại (triệu đồng)",
+      "kinhphihotro": "Kinh phí hỗ trợ (triệu đồng)",
+      "ghichu": "Ghi chú",
+      "x": "Kinh độ",
+      "y": "Vĩ độ",
+      "tenxa": "Xã",
+      "tenhuyen": "Huyện",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuyloi_doman_mobile": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_doman_mobile/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "ten": "Tên",
+      "ngaydo_vn": "Ngày đo",
+      "doman": "Độ mặn"
+    }
+  }
+
+}

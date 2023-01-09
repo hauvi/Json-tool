@@ -1,0 +1,38 @@
+{
+  "ptnt": {
+    "pContent": {
+      "title": "Phát triển nông thôn",
+      "id": "phattriennongthon",
+      "isEx": false,
+      "isSelect": false,
+      "pChildContent": [
+        {
+          "title": "Làng nghề, hợp tác xã",
+          "id": "phattriennongthon_tonghop",
+          "isEx": false,
+          "isSelect": false,
+          "pChildContent": [
+         
+            {
+              "title": "Làng nghề",
+              "id": "phattriennongthon_langnghe",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_ptnt_langnghe_min.png",
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            },
+            {
+              "title": "Hợp tác xã",
+              "id": "phattriennongthon_hoptacxa",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_ptnt_hoptacxa_min.png",
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            }
+
+          ]
+        }
+      ]
+    }
+  }
+}

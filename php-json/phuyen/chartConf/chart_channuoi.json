@@ -1,0 +1,445 @@
+{ 
+
+  "channuoi_coso_nhayen": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_nhayen_mini/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng chim yến theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "soluongchim",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng cơ sở theo số tầng nuôi yến",
+        "selfFilter": "sotangnuoiyen",
+        "chartType": "Bar",
+        "keyDim": "sotangnuoiyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số lượng cơ sở theo năm xây dựng",
+        "selfFilter": "thoigianhoatdong",
+        "chartType": "Bar",
+        "keyDim": "thoigianhoatdong",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Số lượng cơ sở theo cấu trúc nhà",
+        "selfFilter": "cautrucnhanuoi",
+        "chartType": "Bar",
+        "keyDim": "cautrucnhanuoi",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      
+      "chart6": {
+        "nameChart": "Số lượng cơ sở theo vật liệu thanh giá tổ",
+        "selfFilter": "thanhgiato",
+        "chartType": "Bar",
+        "keyDim": "thanhgiato",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart7": {
+        "nameChart": "Số lượng cơ sở theo hệ thống lỗ thông hơi",
+        "selfFilter": "hethonglothonghoi",
+        "chartType": "Row",
+        "keyDim": "hethonglothonghoi",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      
+      "chart8": {
+        "nameChart": "Số lượng cơ sở theo hệ thống tạo ẩm trong nhà",
+        "selfFilter": "hethongtaoamtrongnha",
+        "chartType": "Bar",
+        "keyDim": "hethongtaoamtrongnha",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+
+      "chart9": {
+        "nameChart": "Số lượng cơ sở theo hệ thống tạo ẩm ngoài trời",
+        "selfFilter": "hethongtaoamngoaitroi",
+        "chartType": "Bar",
+        "keyDim": "hethongtaoamngoaitroi",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+
+  "channuoi_coso_channuoi": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_channuoi/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cơ sở theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng con theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "soluong",
+        "filter": []
+      }
+    }
+  },
+  "channuoi_coso_gietmo": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_gietmo/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cơ sở theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng con theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "soluong",
+        "filter": []
+      }
+    }
+  },
+  "channuoi_coso_aptrung": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_coso_aptrung/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cơ sở theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng sản phẩm theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "soluong",
+        "filter": []
+      }
+    }
+  },
+  
+  "channuoi_diemmohinh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi.vw_diemmohinh_channuoi/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số vị trí",
+        "chartType": "TextBox",
+        "keyDim": "maso",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng điểm mô hình theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng điểm mô hình theo đơn vị đầu tư",
+        "selfFilter": "donvidautu",
+        "chartType": "Row",
+        "keyDim": "donvidautu",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng điểm mô hình theo loại chứng nhận",
+        "selfFilter": "chungnhan",
+        "chartType": "Row",
+        "keyDim": "chungnhan",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Diện tích thực hiện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichthuchien",
+        "filter": []
+      }
+    }
+  },
+
+  "channuoi_mobile_dichbenh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_channuoi/g0",
+    "DimGroupList": {
+      "chart1": {
+        "nameChart": "Số vị trí theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số vị trí theo loại bệnh",
+        "selfFilter": "dichbenh",
+        "chartType": "Row",
+        "keyDim": "dichbenh",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số vị trí theo loại vật nuôi",
+        "selfFilter": "loaicaycon",
+        "chartType": "Row",
+        "keyDim": "loaicaycon",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Số vị trí theo giống vật nuôi",
+        "selfFilter": "giongcaycon",
+        "chartType": "Row",
+        "keyDim": "giongcaycon",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+  "channuoi_tongdan": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi_tongdan/g0",
+    "DimGroupList": {
+      "selectChuyenmuc": {
+        "nameChart": "Chọn chuyên mục",
+        "chartType": "DropboxText",
+        "keyDim": "fdate",
+        "typeMap": "Sum",
+        "keyMap": "tongdan",
+        "filter": []
+      },
+      "numberbox": {
+        "nameChart": "Tổng đàn (con)",
+        "chartType": "TextBox",
+        "keyDim": "fdate",
+        "typeMap": "Sum",
+        "keyMap": "tongdan",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Cơ cấu về tổng đàn gia súc theo địa phương",
+		"nameChartEx": "Cấp huyện",
+        "group4Map": true,
+        "group4MapCodeColor": "Greens",
+        "group4MapField4Color": "tenhc",
+        "selfFilter": "tenhuyen",
+        "chartType": "Pie",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "tongdan",
+        "filter": [],
+		"drilldown": [
+      {
+        "label": "Cấp huyện",
+        "key": "tenhuyen",
+        "val": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hchuyen/*/{z}/{x}/{y}",
+        "name": "donvihanhchinh.hanhchinh_huyen_view",
+        "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi_tongdan/g0?"
+      }
+        ]
+      },
+      "chart2": {
+        "nameChart": "Số lượng trâu theo địa phương (con)",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "trau",
+        "selfFilter": "tenhuyen",
+        "filter": ["fdate"]
+      },
+      "chart3": {
+        "nameChart": "Số lượng bò theo địa phương (con)",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "bo",
+        "selfFilter": "tenhuyen",
+        "filter": ["fdate"]
+      },
+      "chart4": {
+        "nameChart": "Số lượng lợn theo địa phương (con)",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "lon",
+        "selfFilter": "tenhuyen",
+        "filter": ["fdate"]
+      },
+      "chart5": {
+        "nameChart": "Số lượng dê cừu theo địa phương (con)",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "decuu",
+        "selfFilter": "tenhuyen",
+        "filter": ["fdate"]
+      }
+    }
+  } ,
+  "channuoi_dichbenh_fix": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi_dichbenh_fix/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số hộ có dịch",
+        "chartType": "TextBox",
+        "keyDim": "ngaycapnhatcuoi",
+        "typeMap": "Sum",
+        "keyMap": "soho",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Cơ cấu về số hộ có dịch theo địa phương",
+		"nameChartEx": "Cấp huyện",
+        "group4Map": true,
+        "group4MapCodeColor": "Greens",
+        "group4MapField4Color": "tenhc",
+        "selfFilter": "tenhuyen",
+        "chartType": "Pie",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "soho",
+        "filter": [],
+		"drilldown": [
+      {
+        "label": "Cấp huyện",
+        "key": "tenhuyen",
+        "val": "https://backend_rest.girs.vn/mapnus/mt/phuyen/hchuyen/*/{z}/{x}/{y}",
+        "name": "donvihanhchinh.hanhchinh_huyen_view",
+        "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/channuoi_dichbenh_fix/g0?"
+      }
+        ]
+      },
+      "chart2": {
+        "nameChart": "Số lượng hộ có dịch theo loại bệnh",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "soho",
+        "selfFilter": "chuyenmuc",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng hộ có dịch theo đối tượng bệnh",
+        "chartType": "Row",
+        "keyDim": "loai",
+        "typeMap": "Sum",
+        "keyMap": "soho",
+        "selfFilter": "loai",
+        "filter": []
+      }
+    }
+  } 
+}

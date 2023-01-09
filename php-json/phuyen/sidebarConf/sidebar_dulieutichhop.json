@@ -1,0 +1,113 @@
+{
+   "dulieutichhop": {
+      "pContent": {
+         "title": "Dữ liệu tích hợp",
+         "id": "tichhop",
+         "isEx": false,
+         "isSelect": false,
+         "pChildContent": [
+            {
+               "title": "Đất đai, sử dụng đất",
+               "id": "tichhop_datdai",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Hiện trạng sử dụng đất (2015)",
+                     "id": "tichhop_hientrang_sdd_PhuYen_2015",
+                     "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/legend_sudungdat.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Bản đồ thổ nhưỡng (2012)",
+                     "id": "tichhop_thonhuong_PhuYen",
+                     "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/legend_thonhuong_2012.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title": "Dữ liệu khí tượng",
+               "id": "tichhop_khituong",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Radar thời tiết",
+                     "id": "tichhop_khituong_radar",
+                     "chudan": "https://nongnghiephaugiang.girs.vn/file_system/a1_mapicon/legend_radar.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Dự báo lượng mưa",
+                     "id": "tichhop_khituong_luongmua",
+                     "chudan": "https://nongnghiephaugiang.girs.vn/file_system/a1_mapicon/legend_rain.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Dự báo nhiệt độ",
+                     "id": "tichhop_khituong_nhietdo",
+                     "chudan": "https://nongnghiephaugiang.girs.vn/file_system/a1_mapicon/legend_temp.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Dự báo gió",
+                     "id": "tichhop_khituong_gio",
+                     "chudan": "https://nongnghiephaugiang.girs.vn/file_system/a1_mapicon/legend_wind.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title": "Dữ liệu viễn thám",
+               "id": "tichhop_vientham",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Dữ liệu vệ tinh Sentinel-2",
+                     "id": "tichhop_vientham_s2",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Dữ liệu vệ tinh Landsat-8",
+                     "id": "tichhop_vientham_l8",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title": "Trạm KTTV",
+               "id": "tichhop_tramtktv",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Trạm KTTV",
+                     "id": "tichhop_tramtktv_py",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

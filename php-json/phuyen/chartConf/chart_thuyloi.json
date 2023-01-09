@@ -1,0 +1,451 @@
+{
+  "thuyloi_congtrinh_cong": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_cong/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số công trình",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cống theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cống theo trạm quản lý",
+        "selfFilter": "thuoctram",
+        "chartType": "Bar",
+        "keyDim": "thuoctram",
+        "typeMap": "reduceCount",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng cống theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "reduceCount",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số lượng cống theo tuyến kênh",
+        "selfFilter": "namtrenkenh",
+        "chartType": "Row",
+        "keyDim": "namtrenkenh",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_dap": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi_dap/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số đập",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng đập theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Diện tích tưới thiết kế theo huyện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichtuoithietke",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Diện tích tưới thực tế theo huyện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichtuoithucte",
+        "filter": []
+      } ,
+      "chart4": {
+        "nameChart": "Diện tích lưu vực theo huyện (km2)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichluuvuc",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_congtrinh_trambom": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_trambom/g0?",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số công trình",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng trạm bơm theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng trạm bơm theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "reduceCount",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng trạm bơm theo số lượng tờ máy",
+        "selfFilter": "sotomay",
+        "chartType": "Bar",
+        "keyDim": "sotomay",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_congtrinh_hochua": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_hochua/g0?",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số hồ chứa",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng hồ chứa theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng hồ chứa theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "reduceCount",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Tổng diện tích mặt nước theo huyện (km2)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichmatnuoc",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Tổng diện tích tưới theo huyện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "ftuoivu",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_congtrinh_khac": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_khac/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số công trình",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng công trình theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng công trình theo huyện",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng công trình theo trạm quản lý",
+        "selfFilter": "thuoctram",
+        "chartType": "Bar",
+        "keyDim": "thuoctram",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },  
+      "chart4": {
+        "nameChart": "Số lượng công trình theo tuyến kênh",
+        "selfFilter": "namtrenkenh",
+        "chartType": "Row",
+        "keyDim": "namtrenkenh",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_congtrinh_phutro": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_phutro/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số công trình",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng công trình theo loại",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng công trình theo huyện",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng công trình theo trạm quản lý",
+        "selfFilter": "thuoctram",
+        "chartType": "Row",
+        "keyDim": "thuoctram",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_congtrinh_kenh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi_congtrinh_kenh/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số công trình kênh",
+        "chartType": "TextBox",
+        "keyDim": "maso",
+        "typeMap": "Count",
+        "keyMap": "chuyenmuc",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Tổng số lượng kênh theo trạm",
+        "selfFilter": "tram",
+        "chartType": "Bar",
+        "keyDim": "tram",
+        "typeMap": "Count",
+        "keyMap": "chuyenmuc",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng kênh theo hiện trạng",
+        "selfFilter": "tinhtrang",
+        "chartType": "Bar",
+        "keyDim": "tinhtrang",
+        "typeMap": "Count",
+        "keyMap": "chuyenmuc",
+        "filter": []
+      }        
+    }
+  },
+  "thuyloi_congtrinh_phongchongsatlo": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_congtrinh_phongchongsatlo/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số công trình phòng chống sạt lở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Tổng số lượng công trình theo loại",
+        "selfFilter": "tuyenbosongbobien",
+        "chartType": "Row",
+        "keyDim": "tuyenbosongbobien",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng công trình theo chất lượng công trình",
+        "selfFilter": "chatluongct",
+        "chartType": "Bar",
+        "keyDim": "chatluongct",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      } 
+    }
+  },
+  "thuyloi_diemsatlo": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_diemsatlo/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số vị trí sạt lở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng vị trí theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "maso",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng vị trí theo mức độ nguy hiểm",
+        "selfFilter": "phanloaisatlo",
+        "chartType": "Bar",
+        "keyDim": "phanloaisatlo",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng vị trí theo tuyến bờ sông, bờ biển",
+        "selfFilter": "tuyenbosongbobien",
+        "chartType": "Row",
+        "keyDim": "tuyenbosongbobien",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_diem_thiethai": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_diem_thiethai/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số vị trí",
+        "chartType": "TextBox",
+        "keyDim": "maso",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng vị trí theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "maso",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng vị trí theo loại thiên tai",
+        "selfFilter": "loaithientai",
+        "chartType": "Bar",
+        "keyDim": "loaithientai",
+        "typeMap": "Count",
+        "keyMap": "maso",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Ước tính thiệt hại theo huyện (triệu đồng)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "uocthiethai",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số căn nhà bị ảnh hưởng",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "reduceSum",
+        "keyMap": "socan",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Số lượng vị trí theo trạng thái",
+        "selfFilter": "chuyenmuc",
+        "chartType": "Bar",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "maso",
+        "filter": []
+      }
+    }
+  },
+  "thuyloi_doman_mobile": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/thuyloi.vw_doman_mobile/g0?",
+    "DimGroupList": {
+      "chart1": {
+        "nameChart": "Đo mặn",
+        "chartType": "Row",
+        "keyDim": "ten",
+        "typeMap": "avg",
+        "keyMap": "doman",
+        "filter": []
+      }
+    }
+  }
+}

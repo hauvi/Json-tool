@@ -1,0 +1,69 @@
+{
+   "thuysan": {
+      "pContent": {
+         "title": "Thủy sản",
+         "id": "thuysan",
+         "isEx": false,
+         "isSelect": false,
+         "pChildContent": [
+            {
+               "title": "Dịch bệnh thủy sản",
+               "id": "thuysan_mobile",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  {
+                     "title": "Vị trí phát hiện bệnh trên thủy sản",
+                     "id": "thuysan_mobile_dichbenh",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuysan_dichbenh_mobile_min.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title": "Cơ sở nuôi trồng thủy sản",
+               "id": "thuysan_cosonuoitrong",
+               "isEx": false,
+               "isSelect": false,
+               "pChildContent": [
+                  
+                  {
+                     "title": "Điểm mô hình thủy sản",
+                     "id": "thuysan_diemmohinh",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuysan_diemmohinh_min.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  },
+                  {
+                     "title": "Vùng nuôi thủy sản",
+                     "id": "thuysan_vungnuoi",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuysan_vungnuoi.png",
+                     "isEx": false,
+                     "isSelect": false,
+                     "pChildContent": []
+                  }
+               ]
+            },
+            {
+               "title":"Bản đồ thủy sản",
+               "id":"thuysan_bando",
+               "isEx":false,
+               "isSelect":false,
+               "pChildContent":[
+                  {
+                     "title":"Bản đồ thủy sản",
+                     "id":"thuysan_bando_py",                 
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[                      
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

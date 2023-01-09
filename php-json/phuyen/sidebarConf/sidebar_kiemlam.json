@@ -1,0 +1,99 @@
+{
+  "lamnghiep": {
+    "pContent": {
+      "title": "Lâm nghiệp",
+      "id": "lamnghiep",
+      "isEx": false,
+      "isSelect": false,
+      "pChildContent": [
+        {
+          "title": "Dữ liệu rừng",
+          "id": "lamnghiep_qldlr",
+          "isEx": false,
+          "isSelect": false,
+          "pChildContent": [
+            {
+              "title": "Bản đồ quy hoạch 3 loại rừng (QĐ 2570)",
+              "id": "lamnghiep_qldlr_3loairung",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/legend_hientrang_rung_PhuYen_QD2570.png",	
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            },
+            {
+              "title": "Bản đồ hiện trạng loại rừng",
+              "id": "lamnghiep_qldlr_hientrangrung",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/legend_hientrang_rung_PhuYen_QD2570.png",	
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            },
+            {
+              "title": "Bản đồ hiện trạng vùng rừng trồng",
+              "id": "lamnghiep_qldlr_vungrungtrong",
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            }
+          ]
+        },
+        {
+          "title": "Quản lý cơ sở nuôi, trồng, cơ sở chế biến, vườn ươm",
+          "id": "lamnghiep_qldongvathoangda",
+          "isEx": false,
+          "isSelect": false,
+          "pChildContent": [
+            {
+              "title": "Gây nuôi động vật hoang dã quý hiếm",
+              "id": "lamnghiep_qldongvathoangda_dongvatquyhiem",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_kiemlam_dvthuong_min.png",
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            },
+            {
+              "title": "Động vật hoang dã thông thường",
+              "id": "lamnghiep_qldongvathoangda_dongvatthongthuong",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_kiemlam_dvhiem_min.png",
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            },
+            {
+              "title": "Cơ sở trồng thực vật quý hiếm",
+              "id": "lamnghiep_qldongvathoangda_thucvatquyhiem",
+              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_kiemlam_tv_min.png",
+              "isEx": false,
+              "isSelect": false,
+              "pChildContent": []
+            }
+          ]
+        },
+        {
+          "title": "Phòng cháy, chữa cháy rừng",
+          "id": "lamnghiep_bando",
+          "isEx": false,
+          "isSelect": false,
+          "pChildContent": [
+            {
+              "title": "Điểm cháy từ vệ tinh, cảnh báo cháy",
+              "id":"kiemlam_baochay",               
+              "isEx":false,
+              "isSelect":false,
+              "pChildContent":[                      
+              ]
+           },
+           {
+            "title": "Bản đồ phân vùng trọng điểm cháy",
+            "id":"lamnghiep_chay",               
+            "isEx":false,
+            "isSelect":false,
+            "pChildContent":[                      
+            ]
+           }
+          ]
+        }
+      ]
+    }
+  }
+}

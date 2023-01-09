@@ -1,0 +1,47 @@
+{
+  "phattriennongthon_hoptacxa": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/phattriennongthon.vw_hoptacxa/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Lĩnh vực hoạt động",
+      "tencoso": "Tên hợp tác xã",
+      "diachi": "Địa chỉ",
+      "giamdoc": "Giám đốc",
+      "sodienthoai": "Số điện thoại",
+      "xeploai": "Xếp loại",
+      "namxeploai": "Năm xếp loại",
+      "nghanhnghehoatdong": "Nghành nghề hoạt động",
+      "ngaydangky": "Ngày đăng ký",
+      "solaodong": "Số lao động",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "maso": "Mã xác định"
+    }
+  },
+  "phattriennongthon_langnghe": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/phattriennongthon.vw_langnghe/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc": "Chuyên mục",
+      "ten": "Tên làng nghề",
+      "quyetdinhcongnhan": "Quyết định công nhận",
+      "namcongnhan": "Năm công nhận",
+      "diachi": "Địa chỉ",
+      "sohothamgiasx": "Số hộ tham gia sản xuất",
+      "thunhapbinhquan": "Thu nhập bình quân",
+      "nanglucsx": "Năng lực sản xuất",
+      "tinhhinhhd": "Tình hình hoạt động",
+      "ghichu": "Ghi chú",
+      "tenhuyen": "Tên huyện",
+      "tenxa": "Tên xã"
+    }
+  }
+
+
+ 
+}

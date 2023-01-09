@@ -1,0 +1,101 @@
+{
+    "basemap_google_satellite": {
+        "iURL4Map": [
+            "https:\/\/mt0.google.com\/vt\/lyrs=s&hl=en&x={x}&y={y}&z={z}"
+        ]
+    },
+    "basemap_google_roadmap": {
+        "iURL4Map": [
+            "https:\/\/mt0.google.com\/vt\/lyrs=m&hl=en&x={x}&y={y}&z={z}"
+        ]
+    },
+    "basemap_toner_lite": {
+        "iURL4Map": [
+            "https:\/\/{s}.dothanhlong.org\/basemap\/hanhchinh\/zxy\/t5\/toner-lite\/{z}\/{x}\/{y}.png"
+        ]
+    },
+    "basemap_hanhchinh": {
+        "iURL4Map": [
+            "https:\/\/{s}.dothanhlong.org\/basemap\/hanhchinh\/zxy\/t7\/BaseMap\/{z}\/{x}\/{y}.png"
+        ]
+    },
+    "tichhop_hientrang_sdd_PhuYen_2015": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:phuyen_sdd_2015_group&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "tichhop_thonhuong_PhuYen": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:thonhuong_2012&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "lamnghiep_qldlr_3loairung": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:rung_quyhoach_2017&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "lamnghiep_qldlr_hientrangrung": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:rung_hientrang_2020&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "lamnghiep_qldlr_vungrungtrong": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:rung_hientrang_trong_2020&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "lamnghiep_chay": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:trongdiemchay_phuyen_geo&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "thuyloi_bando_hientrang": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:bandothuyloi_PY_ghichu&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "thuysan_bando_py": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:bando_thuysan_phuyen_groups&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "trongtrot_bando": {
+        "iURL4Map": [
+            "https:\/\/geo4.girs.vn\/geoserver16\/gwc\/service\/wmts?layer=phuyen:thichhopdat_nongnghiep_phuyen_groups&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image\/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        ]
+    },
+    "tichhop_vientham_s2": {
+        "iURL4Map": [
+            "https:\/\/g.sat.owm.io\/sql\/{z}\/{x}\/{y}\/?appid=9de243494c0b295cca9337e1e96b00e2&overzoom=true&op=ndvi&from=s2&tabActive=2"
+        ]
+    },
+    "tichhop_vientham_l8": {
+        "iURL4Map": [
+            "https:\/\/b.dothanhlong.org\/basemap\/sat\/zxy\/t11\/truecolor\/l8\/last\/{z}\/{x}\/{y}.png"
+        ]
+    },
+    "tichhop_khituong_radar": {
+        "iURL4Map": [
+            "https:\/\/tilecache.rainviewer.com\/v2\/radar\/1607069400\/256\/{z}\/{x}\/{y}\/2\/1_1.png"
+        ],
+        "opacity": 0.9
+    },
+    "tichhop_khituong_luongmua": {
+        "iURL4Map": [
+            "https:\/\/b.dothanhlong.org\/basemap\/weather\/zxy\/t9_v2\/20201204_03z\/rain\/20201204_09z\/{z}\/{x}\/{y}.png"
+        ],
+        "opacity": 0.7
+    },
+    "tichhop_khituong_gio": {
+        "iURL4Map": [
+            "https:\/\/b.dothanhlong.org\/basemap\/weather\/zxy\/t9_v2\/20201204_03z\/wind\/20201204_09z\/{z}\/{x}\/{y}.png"
+        ],
+        "opacity": 0.7
+    },
+    "tichhop_khituong_nhietdo": {
+        "iURL4Map": [
+            "https:\/\/b.dothanhlong.org\/basemap\/weather\/zxy\/t9_v2\/20201204_03z\/tmp\/20201204_09z\/{z}\/{x}\/{y}.png"
+        ],
+        "opacity": 0.7
+    }
+}

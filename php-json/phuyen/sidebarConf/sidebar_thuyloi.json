@@ -1,0 +1,144 @@
+{  
+  "thuyloi": {
+      "pContent":{
+         "title":"Thủy lợi",
+         "id":"thuyloi",
+         "isEx":false,
+         "isSelect":false,
+         "pChildContent":[
+            {
+               "title":"Công trình thủy lợi",
+               "id":"thuyloi_congtrinh",
+               "isEx":false,
+               "isSelect":false,
+               "pChildContent":[
+                  {
+                     "title":"Kênh",
+                     "id":"thuyloi_congtrinh_kenh",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/legend_thuyloi_kenh_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Cống",
+                     "id":"thuyloi_congtrinh_cong",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_cong_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Trạm bơm",
+                     "id":"thuyloi_congtrinh_trambom",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_trambom_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Hồ chứa",
+                     "id":"thuyloi_congtrinh_hochua",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_hochua_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Đập",
+                     "id":"thuyloi_dap",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_dap_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Công trình khác",
+                     "id":"thuyloi_congtrinh_khac",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_ctkhac_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Công trình phụ trợ",
+                     "id":"thuyloi_congtrinh_phutro",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_ctphutro_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  },
+                  {
+                     "title":"Công trình phòng chống sạt lở",
+                     "id":"thuyloi_congtrinh_phongchongsatlo",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_ctphongchongsatlo_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  }                     
+               ]
+            },
+            {
+               "title":"Sạt lở, thiên tai",
+               "id":"thuyloi_satlo_thientai",
+               "isEx":false,
+               "isSelect":false,
+               "pChildContent":[
+
+                  {
+                     "title":"Điểm vị trí sạt lở",
+                     "id":"thuyloi_diemsatlo",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_diemsatlo_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[                       
+                     ]
+                  },            
+                  {
+                     "title":"Điểm thiệt hại do thiên tai (mobile)",
+                     "id":"thuyloi_diem_thiethai",
+                     "chudan":"https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_thuyloi_diem_thiethai_min.png",
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[                      
+                     ]
+                  }
+               ]
+            },
+            {
+               "title":"Bản đồ thủy lợi",
+               "id":"thuyloi_bando",
+               "isEx":false,
+               "isSelect":false,
+               "pChildContent":[
+                  {
+                     "title":"Bản đồ hiện trạng thủy lợi",
+                     "id":"thuyloi_bando_hientrang",                 
+                     "isEx":false,
+                     "isSelect":false,
+                     "pChildContent":[
+                        
+                     ]
+                  }
+               ]
+            }          
+         ]
+      }
+   }
+}

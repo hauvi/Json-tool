@@ -1,0 +1,36 @@
+{
+
+  "thuysan_vungnuoi":{
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/thuysan.vw_vungnuoi/*/{z}/{x}/{y}",
+    "iSl": "thuysan.vw_vungnuoi",
+    "style": {
+      "color": {
+        "default": "#0066FF",
+        "field": "ten",
+        "keyval": [
+          "ABC", "#008D4B",
+          "ABY", "#ED1E24",
+          "ABD", "#FFFAC2"
+        ]        
+      }
+    }
+  },
+
+  "lamnghiep_qldlr_vungrungtrong":{
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/mt/phuyen/kiemlam.vw_vungrungtrong/*/{z}/{x}/{y}",
+    "iSl": "kiemlam.vw_vungrungtrong",
+    "style": {
+      "color": {
+        "default": "#00CC00",
+        "field": "abc",
+        "keyval": [
+          "ABC", "#008D4B",
+          "ABY", "#ED1E24",
+          "ABD", "#FFFAC2"
+        ]        
+      }
+    }
+  }
+
+
+}

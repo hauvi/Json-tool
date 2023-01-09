@@ -1,0 +1,21 @@
+{
+  "tichhop_tramtktv_py": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/tichhop_tramtktv_py/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "nhom": "Chuyên mục",
+      "chuyenmuc": "Trạm",
+      "fdate_vn": "Thời gian ghi nhận",
+      "muatbthang": "Mưa trung bình tháng",
+      "amtbthang": "Ẳm trung bình tháng",
+      "nhietdotbthang": "Nhiệt độ trung bình tháng",
+      "luuluongcaonhat": "Lưu lượng sông cao nhất năm",
+      "mucnuoccaonhat": "Mực nước sông cao nhất năm",
+      "luuluongthapnhat": "Lưu lượng sông thấp nhất năm",
+      "mucnuocthapnhat": "Mực nước sông thấp nhất năm"
+    }
+  }
+
+}

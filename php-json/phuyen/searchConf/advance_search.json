@@ -1,0 +1,30 @@
+{
+  "thuyloi_congtrinh_cong":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/apisearch/phuyen/thuyloi.vw_congtrinh_cong?format=geojson&bylike=true"],
+    "iName": "Cống",
+    "iDetails": {
+      "chuyenmuc": "Phân nhóm", 
+      "ten":  "Tên cống", 
+      "namtrenkenh": "Trên kênh", 
+	  "thuoctram": "Trạm",
+      "namxd" : "Năm xd",
+	  "phanloaict" : "Nhóm",
+	  "chuyenmuc": "Phân loại",
+	  "nguongoc" : "Nguồn gốc",
+      "hientrangsd": "Hiện trạng",
+      "tenhuyen": "Huyện"
+    },
+    "iSpecial":{
+      "number": ["namxaydung", "chieudai", "chieurong", "caotrinhday","caotrinhdinh"],
+      "select": [
+        {
+          "iKey": "tenhuyen",
+          "iLink" : "https://backend_rest.girs.vn/mapnus/api/dist/phuyen/donvihanhchinh.hanhchinh_huyen_view/tenhuyen"
+        }
+      ]
+    },
+    "iKgian": ["tenhuyen", "tenxa"],
+    "iShow1": ["tencong"],
+    "iShow2": ["tenxa", "tenhuyen"]
+  }
+}

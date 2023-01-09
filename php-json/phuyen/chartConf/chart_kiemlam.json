@@ -1,0 +1,122 @@
+{
+  "lamnghiep_qldongvathoangda_dongvatquyhiem": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_dongvatquyhiem/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cá thể cầy theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Sum",
+        "keyMap": "socathecay",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng cá thể nai theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Sum",
+        "keyMap": "socathenai",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số lượng cá thể nhím theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Sum",
+        "keyMap": "socathnhim",
+        "filter": []
+      }
+    }
+  },
+  "lamnghiep_qldongvathoangda_dongvatthongthuong": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_dongvatthongthuong/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cá thể dúi theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Sum",
+        "keyMap": "socathedui",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng cá thể lợn rừng theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Sum",
+        "keyMap": "socathelonrung",
+        "filter": []
+      }
+    }
+  },
+  "lamnghiep_qldongvathoangda_thucvatquyhiem": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/kiemlam_thucvatquyhiem/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số cơ sở",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng cơ sở theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng cá thể giáng hương theo huyện",
+        "selfFilter": "huyen",
+        "chartType": "Row",
+        "keyDim": "huyen",
+        "typeMap": "Sum",
+        "keyMap": "socathegianghuong",
+        "filter": []
+      }
+    }
+  }
+}

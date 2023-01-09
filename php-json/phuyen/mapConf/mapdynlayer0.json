@@ -1,0 +1,88 @@
+{
+  "ptnt_bando_htx2": {
+    "iURL4Map": "https://backend_rest.girs.vn/mapnus/tsmt/haugiang/phattriennongthon.hoptacxa_join/*/{z}/{x}/{y}?type=g3&boloct2=50",
+    "iSl": "phattriennongthon.hoptacxa_geo",
+    "style": {
+      "color": {
+        "default": "#0F00FF",
+        "field": "avgvondieule",
+        "keyval":  [
+          [10, "#fff5f0"],
+          [20, "#fee0d2"],
+          [30, "#fcbba1"],
+          [40, "#fc9272"],
+          [50, "#fb6a4a"],
+          [60, "#ef3b2c"],
+          [70, "#cb181d"],
+          [80, "#a50f15"],
+          [90, "#67000d"]
+        ]
+      },
+      "size": {
+        "default": 10
+      }
+    },
+    "styleArr": [
+      {
+        "fcode": "default",
+        "fname": "Không phân loại",
+        "color": {
+          "default": "#1CFC1C"  
+        },
+        "size": {
+          "default": 4
+        }
+      },
+      {
+        "fcode": "avgdoanhthu",
+        "fname": "Doanh thu trung bình hàng năm",
+        "color": {
+          "default": "#1CFC1C",
+          "keyval":  [
+            [10, "#fff5f0"],
+            [20, "#fed0d2"],
+            [30, "#fcbba1"],
+            [40, "#fcf272"],
+            [50, "#fb6a4a"],
+            [60, "#ef3b2c"],
+            [70, "#cbff1d"],
+            [80, "#d5ff15"],
+            [90, "#67f00d"]
+          ]                 
+        },
+        "size": {
+          "default": 12
+        }
+      },
+      {
+        "fcode": "vondieule",
+        "fname": "Vốn điều lệ hiện nay",
+        "color": {
+          "default": "#1CFC1C",
+          "keyval":  [
+            [10, "#fff5f0"],
+            [20, "#fee0d2"],
+            [30, "#fcbba1"],
+            [40, "#fc9272"],
+            [50, "#fb6a4a"],
+            [60, "#ef3b2c"],
+            [70, "#cb181d"],
+            [80, "#a50f15"],
+            [90, "#67000d"]
+          ]                 
+        },
+        "size": {
+          "default": { 
+            "property": "doanhthu", 
+            "stops": [ 
+              [{"zoom": 11, "value": 10}, 5], 
+              [{"zoom": 11, "value": 150}, 15], 
+              [{"zoom": 14, "value": 10}, 8], 
+              [{"zoom": 14, "value": 150}, 40]
+            ] 
+          }
+        }
+      }
+    ]
+  }
+}

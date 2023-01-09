@@ -1,0 +1,358 @@
+{
+
+ 
+  "trongtrot_diemmohinh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot.vw_diemmohinh_trongtrot/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số vị trí",
+        "chartType": "TextBox",
+        "keyDim": "maso",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số lượng điểm mô hình theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Số lượng điểm mô hình theo đơn vị đầu tư",
+        "selfFilter": "donvidautu",
+        "chartType": "Bar",
+        "keyDim": "donvidautu",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng điểm mô hình theo loại chứng nhận",
+        "selfFilter": "chungnhan",
+        "chartType": "Bar",
+        "keyDim": "chungnhan",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Diện tích thực hiện (ha)",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichthuchien",
+        "filter": []
+      }
+    }
+  },
+
+  "trongtrot_masovungtrong": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot.vw_masovungtrong/g0",
+    "DimGroupList": {
+      "numberbox": {
+        "nameChart": "Tổng số vị trí",
+        "chartType": "TextBox",
+        "keyDim": "maso",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Số vị trí theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Diện tích theo Loại cây trồng (ha)",
+        "selfFilter": "loaicaytrong",
+        "chartType": "Row",
+        "keyDim": "loaicaytrong",
+        "typeMap": "Sum",
+        "keyMap": "dientichthuchien",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số lượng điểm mô hình theo loại chứng nhận",
+        "selfFilter": "chungnhan",
+        "chartType": "Bar",
+        "keyDim": "chungnhan",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Diện tích thực hiện (ha) theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientichthuchien",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Số lượng vị trí theo năm được cấp",
+        "selfFilter": "namcapmaso",
+        "chartType": "Bar",
+        "keyDim": "namcapmaso",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+
+
+  "trongtrot_mobile_dichhai": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/mobile.zv_mobile_thucdia_nn_data_daduyet_trongtrot/g0",
+    "DimGroupList": {
+      "chart1": {
+        "nameChart": "Số vị trí theo huyện",
+        "selfFilter": "tenhuyen",
+        "chartType": "Row",
+        "keyDim": "tenhuyen",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Số vị trí theo loại bệnh",
+        "selfFilter": "dichbenh",
+        "chartType": "Row",
+        "keyDim": "dichbenh",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Số vị trí theo loại cây",
+        "selfFilter": "loaicaycon",
+        "chartType": "Row",
+        "keyDim": "loaicaycon",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Số vị trí theo giống cây trồng",
+        "selfFilter": "giongcaycon",
+        "chartType": "Row",
+        "keyDim": "giongcaycon",
+        "typeMap": "Count",
+        "keyMap": "",
+        "filter": []
+      }
+    }
+  },
+
+
+  "trongtrot_cocaugionglua": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot_cocaugionglua/g0",
+    "DimGroupList": {
+      "selectChuyenmuc": {
+        "nameChart": "Chọn chuyên mục",
+        "chartType": "DropboxText",
+        "keyDim": "nam",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "numberbox": {
+        "nameChart": "Tổng diện tích (ha)",
+        "chartType": "TextBox",
+        "keyDim": "nam",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Cơ cấu về diện tích theo địa phương",		
+        "group4Map": true,
+        "group4MapCodeColor": "Greens",
+        "group4MapField4Color": "tenhc",
+        "selfFilter": "tenhc",
+        "chartType": "Pie",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Diện tích lúa theo vụ (ha)",
+        "selfFilter": "vu",
+        "chartType": "Row",
+        "keyDim": "vu",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Diện tích lúa theo giống lúa (ha)",
+        "selfFilter": "gionglua",
+        "chartType": "Row",
+        "keyDim": "gionglua",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Diện tích lúa theo loại (ha)",
+        "selfFilter": "loaigiong",
+        "chartType": "Row",
+        "keyDim": "loaigiong",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      }
+    }
+  },
+
+  "trongtrot_dtcaytronghuyen": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot_dtcaytronghuyen/g0",
+    "DimGroupList": {
+      "selectChuyenmuc": {
+        "nameChart": "Chọn chuyên mục",
+        "chartType": "DropboxText",
+        "keyDim": "nam",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "numberbox": {
+        "nameChart": "Tổng diện tích (ha)",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Cơ cấu về diện tích theo địa phương",
+		    "nameChartEx": "Cấp huyện",
+        "group4Map": true,
+        "group4MapCodeColor": "Greens",
+        "group4MapField4Color": "tenhc",
+        "selfFilter": "tenhc",
+        "chartType": "Pie",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Diện tích trồng theo địa phương (ha)",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "selfFilter": "tenhuyen",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Diện tích thu hoạch theo địa phương (ha)",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "dtthuhoach",
+        "selfFilter": "tenhuyen",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Năng suất theo địa phương",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "nangsuat",
+        "selfFilter": "tenhuyen",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Sản lượng theo địa phương",
+        "chartType": "Bar",
+        "keyDim": "tenhuyen",
+        "typeMap": "Sum",
+        "keyMap": "sanluong",
+        "selfFilter": "tenhuyen",
+        "filter": []
+      }
+    }
+  } ,
+  "trongtrot_dtcaytrongtinh": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/trongtrot_dtcaytrongtinh/g0",
+    "DimGroupList": {
+      "selectChuyenmuc": {
+        "nameChart": "Chọn chuyên mục",
+        "chartType": "DropboxText",
+        "keyDim": "nam",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "numberbox": {
+        "nameChart": "Tổng diện tích (ha)",
+        "chartType": "TextBox",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart1": {
+        "nameChart": "Cơ cấu diện tích theo nhóm cây trồng",
+		    "nameChartEx": "Cấp tỉnh",
+        "group4Map": true,
+        "group4MapCodeColor": "Greens",
+        "group4MapField4Color": "tenhc",
+        "selfFilter": "nhom",
+        "chartType": "Pie",
+        "keyDim": "nhom",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Diện tích trồng theo loại cây (ha)",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "dientich",
+        "selfFilter": "chuyenmuc",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Sản lượng theo loại cây",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "sanluong",
+        "selfFilter": "chuyenmuc",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Năng suất theo loại cây",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "nangsuat",
+        "selfFilter": "chuyenmuc",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Diện tích thu hoạch theo loại cây (ha)",
+        "chartType": "Row",
+        "keyDim": "chuyenmuc",
+        "typeMap": "Sum",
+        "keyMap": "dientichthuhoach",
+        "selfFilter": "chuyenmuc",
+        "filter": []
+      }
+    }
+  }
+}

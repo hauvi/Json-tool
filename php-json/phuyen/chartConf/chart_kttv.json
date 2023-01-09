@@ -1,0 +1,70 @@
+{
+  "tichhop_tramtktv_py": {
+    "iURL4Chart": "https://backend_rest.girs.vn/mapnus/api/phuyen/tichhop_tramtktv_py/g0",
+    "DimGroupList": {
+      "chart1": {
+        "nameChart": "Mưa trung bình tháng theo thời gian",
+        "selfFilter": "muatbthang",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "muatbthang",
+        "filter": []
+      },
+      "chart2": {
+        "nameChart": "Ẳm trung bình tháng theo thời gian",
+        "selfFilter": "amtbthang",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "amtbthang",
+        "filter": []
+      },
+      "chart3": {
+        "nameChart": "Nhiệt độ trung bình tháng",
+        "selfFilter": "nhietdotbthang",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "nhietdotbthang",
+        "filter": []
+      },
+      "chart4": {
+        "nameChart": "Lưu lượng sông cao nhất trung bình năm theo thời gian",
+        "selfFilter": "luuluongcaonhat",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "luuluongcaonhat",
+        "filter": []
+      },
+      "chart5": {
+        "nameChart": "Mực nước sông cao nhất trung bình năm theo thời gian",
+        "selfFilter": "mucnuoccaonhat",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "mucnuoccaonhat",
+        "filter": []
+      },
+      "chart6": {
+        "nameChart": "Lưu lượng sông thấp nhất trung bình năm theo thời gian",
+        "selfFilter": "luuluongthapnhat",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "luuluongthapnhat",
+        "filter": []
+      },
+      "chart7": {
+        "nameChart": "Mực nước sông thấp nhất trung bình năm theo thời gian",
+        "selfFilter": "mucnuocthapnhat",
+        "chartType": "BarTime",
+        "keyDim": "nfd",
+        "typeMap": "Avg",
+        "keyMap": "mucnuocthapnhat",
+        "filter": []
+      }
+    }
+  }
+}

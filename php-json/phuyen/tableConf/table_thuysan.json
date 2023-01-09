@@ -1,0 +1,66 @@
+{
+
+  "thuysan_diemmohinh":{
+    "iURL": ["https://backend_rest.girs.vn/mapnus/api/haugiang/tonghop.zv_diemmohinh_thuysan/g0?"],
+    "iDeep": "",
+    "iDetails": {      
+      "chuyenmuc": "Chuyên mục", 
+      "tenmohinh":  "Tên điểm mô hình", 
+      "diadiemthuchien": "Địa điểm thực hiện", 
+      "tenhothuchien": "Tên nông dân thực hiện", 
+      "sodienthoai": "Số điện thoại", 
+      "noidungthuchien": "Nội dung thực hiện", 
+      "dientichthuchien": "Diện tích thực hiện (ha)", 
+      "thoigianthuchien": "Thời gian thực hiện",  
+      "donvidautu": "Đơn vị đầu tư mô hình", 
+      "chungnhan": "Chứng nhận", 
+      "ghichu": "Ghi chú", 
+      "tenhuyen": "Tên huyện", 
+      "tenxa": "Tên xã",
+      "maso": "Mã nhận dạng"
+    }
+  },
+  "thuysan_vungnuoi": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/phuyen/thuysan.vw_vungnuoi/g0?"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "chuyenmuc":"Chuyên mục",
+      "tennguoidaidien": "Người đại diện",
+      "diachi": "Đại chỉ",
+      "sodienthoai": "Số điện thoại",
+      "giongthuysan": "Giống thủy sản",
+      "soluongnuoi": "Sớ lượng nuôi",
+      "trangthai": "Trạng thái",
+      "tenhuyen": "Huyện",
+      "tenxa": "Xã",
+      "ghichu": "Ghi chú",
+      "maso": "Mã định danh"
+    }
+  },
+  "thuysan_mobile_dichbenh": {
+    "iURL": [
+      "https://backend_rest.girs.vn/mapnus/api/haugiang/mobile.zv_mobile_thucdia_nn_data_daduyet_thuysan/g0"
+    ],
+    "iDeep": "",
+    "iDetails": {
+      "id": "ID",
+      "fdate_format": "Thời gian ghi nhận",
+      "dichbenh": "Dịch bệnh",
+      "giaidoansinhtruong": "Giai đoạn sinh trưởng",
+      "linhvuc": "Lĩnh vực",
+      "loaicaycon": "Loại thủy sản",
+      "giongcaycon": "Giống thủy sản",
+      "nguoithuthap": "Người thu thập",
+      "x": "X",
+      "y": "Y",
+      "mahuyen": "Mã huyện",
+      "tenhuyen": "Tên huyện",
+      "maxa": "Mã xã",
+      "tenxa": "Tên xã",
+      "trangthai": "Trạng thái",
+      "ghichu": "Ghi chú"
+    }
+  }
+}

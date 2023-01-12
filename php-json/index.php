@@ -37,6 +37,7 @@
         <input type="text" id="map_url" name="map_url"><br><br>
         <label for="note_url">Note url:</label>
         <input type="text" id="note_url" name="note_url"><br><br>
+
         <input type="submit" value="Add" name="submit">
         <input type="submit" value="Edit" name="submit">
         <input type="submit" value="Delete" name="submit"><br><br>
@@ -44,7 +45,9 @@
     </form>
     <?php
     //add data
+
     if (isset($_GET['submit']) == 'Add') {
+
         if ((isset($_GET['id']) && $_GET['pa_title'] && $_GET['map_url'] && $_GET['title'] || $_GET['note_url']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
             $id = $_GET['id'];
             $title = $_GET['title'];
@@ -92,6 +95,7 @@
     // edit data
     elseif (isset($_GET['submit']) == 'Edit') {
         if ((isset($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) && !empty($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
+
             $id = $_GET['id'];
             $title = $_GET['title'];
             $map_url = $_GET['map_url'];
@@ -154,6 +158,7 @@
         }
     }
     // delete data
+
     elseif (isset($_GET['submit']) == 'Delete') {
         if ((isset($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) && !empty($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
             $id = $_GET['id'];
@@ -164,7 +169,6 @@
             $isEx = false;
             $isSelect = false;
             $pChildContent = [];
-
             if ($pa_title == 'Dịch bệnh chăn nuôi') {
                 $level = 0;
             } elseif ($pa_title == 'Cơ sở sản xuất chăn nuôi') {
@@ -203,7 +207,6 @@
             // }
 
 
-
             $json_sidebar = json_encode($data_sidebar_Decoded, JSON_UNESCAPED_UNICODE);
             // $data_map_Decoded = array_values($data_map_Decoded);
             // $json_map = json_encode($data_map_Decoded, JSON_UNESCAPED_UNICODE);
@@ -212,7 +215,9 @@
             // file_put_contents('phuyen/mapConf/mapwms.json', $json_map);
             echo $json_sidebar;
             echo '<hr>';
+
             // echo $json_map;
+
             // echo '<hr>';
         }
     }

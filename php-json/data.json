@@ -1,1 +1,64 @@
-[{"id":"1","class":"A","member":[{"id":"1","name":"Charlie Jane","email":"acher@gmail.com"},{"id":"2","name":"Arthur Suwador","email":"king@gmail.com"},{"id":"3","name":"Howling Benth","email":"halow@gmail.com"},{"id":"4","name":"Mapple Alister","email":"map@gmail.com"},{"id":"5","name":"Konge Koo","email":"monkey@gmail.com"},{"id":"6","name":"Thomas Bally","email":"tommy@gmail.com"}]},{"id":"2","class":"B","member":[{"id":1,"name":"Hardik Savani","email":"hardik@gmail.com"},{"id":2,"name":"Hardik Savani","email":"jaydeep@gmail.com"},{"id":3,"name":"Vivek Pathar","email":"vivek@gmail.com"},{"id":4,"name":"Mehul Bagda","email":"mehul@gmail.com"},{"id":5,"name":"Nikhil Thummer","email":"nikhil@gmail.com"}]}]
+[
+    {
+        "id": "1",
+        "class": "A",
+        "member": {
+            "1": {
+                "id": "2",
+                "name": "Arthur Suwador",
+                "email": "king@gmail.com"
+            },
+            "2": {
+                "id": "3",
+                "name": "Howling Benth",
+                "email": "halow@gmail.com"
+            },
+            "3": {
+                "id": "4",
+                "name": "Mapple Alister",
+                "email": "map@gmail.com"
+            },
+            "4": {
+                "id": "5",
+                "name": "Konge Koo",
+                "email": "monkey@gmail.com"
+            },
+            "5": {
+                "id": "6",
+                "name": "Thomas Bally",
+                "email": "tommy@gmail.com"
+            }
+        }
+    },
+    {
+        "id": "2",
+        "class": "B",
+        "member": [
+            {
+                "id": 1,
+                "name": "Hardik Savani",
+                "email": "hardik@gmail.com"
+            },
+            {
+                "id": 2,
+                "name": "Hardik Savani",
+                "email": "jaydeep@gmail.com"
+            },
+            {
+                "id": 3,
+                "name": "Vivek Pathar",
+                "email": "vivek@gmail.com"
+            },
+            {
+                "id": 4,
+                "name": "Mehul Bagda",
+                "email": "mehul@gmail.com"
+            },
+            {
+                "id": 5,
+                "name": "Nikhil Thummer",
+                "email": "nikhil@gmail.com"
+            }
+        ]
+    }
+]

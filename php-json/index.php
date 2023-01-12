@@ -15,7 +15,10 @@
     <form action="" method="get">
         <h1 style="text-transform: uppercase;">add json</h1>
         <hr><br>
-        <label for="path_folder">Open folder:</label>
+        <label for="path_folder">Load file:</label>
+        <input type="text" id="id" name="id">
+        <input type="submit" value="Load" name="submit">
+        <br><br>
         <label for="pa_title">Parent title:</label>
         <select name="pa_title" id="pa_title">
             <?php

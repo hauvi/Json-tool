@@ -1,107 +1,106 @@
 {
-   "channuoi": {
-      "pContent": {
-         "title": "Chăn nuôi và Thú y",
-         "id": "channuoi",
-         "isEx": false,
-         "isSelect": false,
-         "pChildContent": [
-            {
-               "title": "Dịch bệnh chăn nuôi",
-               "id": "channuoi_dichbenh_group",
-               "isEx": false,
-               "isSelect": false,
-               "pChildContent": [
-                  {
-                     "title": "Vị trí phát hiện Dịch bệnh trên vật nuôi",
-                     "id": "channuoi_mobile_dichbenh",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_mobile_dichbenh_min.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  }
-               ]
-            },
-            {
-               "title": "Cơ sở sản xuất chăn nuôi",
-               "id": "channuoi_cssxncn",
-               "isEx": false,
-               "isSelect": false,
-               "pChildContent": {
-                  "0": {
-                     "title": "Cơ sở nhà yến",
-                     "id": "channuoi_coso_nhayen",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_coso_nhayen_mini.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  "1": {
-                     "title": "Cơ sở chăn nuôi, trang trại",
-                     "id": "channuoi_coso_channuoi",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_channuoi_min.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  "2": {
-                     "title": "Cơ sở giết mổ, kinh doanh sản phẩm động vật ",
-                     "id": "channuoi_coso_gietmo",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_gietmo_min.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  "3": {
-                     "title": "Cơ sở ấp trứng, thu gom, kinh doanh con giống gia cầm",
-                     "id": "channuoi_coso_aptrung",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_trungcongiong_min.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  "4": {
-                     "title": "Điểm mô hình chăn nuôi",
-                     "id": "channuoi_diemmohinh",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_diemmohinh_min.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  "5": {
-                     "title": "Sản xuất heo thịt",
-                     "id": "sanxuatheothit",
-                     "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_mobile_dichbenh_min.png",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  "title": "Nhà yến"
-               }
-            },
-            {
-               "title": "Thống kê chăn nuôi",
-               "id": "channuoi_baocao_group",
-               "isEx": false,
-               "isSelect": false,
-               "pChildContent": [
-                  {
-                     "title": "Bảng tổng hợp số liệu gia súc",
-                     "id": "channuoi_tongdan",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  },
-                  {
-                     "title": "Thống kê bệnh giai đoạn 2019-2022",
-                     "id": "channuoi_dichbenh_fix",
-                     "isEx": false,
-                     "isSelect": false,
-                     "pChildContent": []
-                  }
-               ]
-            }
-         ]
-      }
-   }
+    "channuoi": {
+        "pContent": {
+            "title": "Chăn nuôi và Thú y",
+            "id": "channuoi",
+            "isEx": false,
+            "isSelect": false,
+            "pChildContent": [
+                {
+                    "title": "Dịch bệnh chăn nuôi",
+                    "id": "channuoi_dichbenh_group",
+                    "isEx": false,
+                    "isSelect": false,
+                    "pChildContent": [
+                        {
+                            "title": "Vị trí phát hiện Dịch bệnh trên vật nuôi",
+                            "id": "channuoi_mobile_dichbenh",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_mobile_dichbenh_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Cơ sở sản xuất chăn nuôi",
+                    "id": "channuoi_cssxncn",
+                    "isEx": false,
+                    "isSelect": false,
+                    "pChildContent": [
+                        {
+                            "title": "Cơ sở nhà yến",
+                            "id": "channuoi_coso_nhayen",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_coso_nhayen_mini.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Cơ sở chăn nuôi, trang trại",
+                            "id": "channuoi_coso_channuoi",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_channuoi_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Cơ sở giết mổ, kinh doanh sản phẩm động vật ",
+                            "id": "channuoi_coso_gietmo",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_gietmo_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Cơ sở ấp trứng, thu gom, kinh doanh con giống gia cầm",
+                            "id": "channuoi_coso_aptrung",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_trungcongiong_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Điểm mô hình chăn nuôi",
+                            "id": "channuoi_diemmohinh",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_diemmohinh_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Sản xuất heo thịt",
+                            "id": "sanxuatheothit",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_mobile_dichbenh_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Thống kê chăn nuôi",
+                    "id": "channuoi_baocao_group",
+                    "isEx": false,
+                    "isSelect": false,
+                    "pChildContent": [
+                        {
+                            "title": "Bảng tổng hợp số liệu gia súc",
+                            "id": "channuoi_tongdan",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Thống kê bệnh giai đoạn 2019-2022",
+                            "id": "channuoi_dichbenh_fix",
+                            "isEx": false,
+                            "isSelect": false,
+                            "pChildContent": []
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }

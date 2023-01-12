@@ -15,28 +15,49 @@
     <form action="" method="get">
         <h1 style="text-transform: uppercase;">add json</h1>
         <hr><br>
+        <label for="path_folder">Open folder:</label>
+        <input type="text" id="id" name="id">
+        <input type="submit" value="Open" name="submit">
+        <br><br>
         <label for="pa_title">Parent title:</label>
 
-        <select name="pa_title" id="pa_title">
-            <option value="">--- Select parent title ---</option>
-            <option value="Dịch bệnh chăn nuôi">Dịch bệnh chăn nuôi</option>
-            <option value="Cơ sở sản xuất chăn nuôi">Cơ sở sản xuất chăn nuôi</option>
-            <option value="Thống kê chăn nuôi">Thống kê chăn nuôi</option>
-        </select><br><br>
+        <?php
+          $data = file_get_contents('phuyen/sidebarConf/sidebar_channuoi.json');
+          $datasDecoded = json_decode($data, true);
+          
+          $pa_title = $datasDecoded['channuoi']['pContent']['pChildContent'][0]['title'];
 
+          echo json_encode($datasDecoded, JSON_UNESCAPED_UNICODE);
+        ?>
+        <select name="pa_title" id="pa_title">
+            <?php
+            $data = file_get_contents('phuyen/sidebarConf/sidebar_channuoi.json');
+            $datasDecoded = json_decode($data, true);
+            $pa_title = [];
+            $count = count($datasDecoded['channuoi']['pContent']['pChildContent']);
+            echo '<option value="">--- Select parent title ---</option>';
+            for ($i = 0; $i < $count; $i++) {
+                echo '<option value="' . $datasDecoded['channuoi']['pContent']['pChildContent'][$i]['title'] . '">' . $datasDecoded['channuoi']['pContent']['pChildContent'][$i]['title'] . '</option>';
+            };
+            ?>
+        </select><br><br>
         <label for="id">ID:</label>
         <input type="text" id="id" name="id"><br><br>
         <label for="title">Title:</label>
         <input type="text" id="title" name="title"><br><br>
         <label for="map_url">Map url:</label>
         <input type="text" id="map_url" name="map_url"><br><br>
+        <label for="note_url">Note url:</label>
+        <input type="text" id="note_url" name="note_url"><br><br>
         <input type="submit" value="Add" name="add">
-        <input type="submit" value="Edit" name="edit"><br><br>
+        <input type="submit" value="Edit" name="edit">
+        <input type="submit" value="Del" name="del"><br><br>
         <hr><br>
     </form>
     <?php
+    //add data
     if (isset($_GET['add'])) {
-        if ((isset($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title']) {
+        if ((isset($_GET['id']) && $_GET['pa_title'] && $_GET['map_url'] && $_GET['title'] || $_GET['note_url']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
             $id = $_GET['id'];
             $title = $_GET['title'];
             $map_url = $_GET['map_url'];
@@ -58,7 +79,7 @@
                 $level = 2;
             }
 
-            $chudan = 'https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_channuoi_mobile_dichbenh_min.png';
+            // $chudan = 'https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_channuoi_mobile_dichbenh_min.png';
             $isEx = false;
             $isSelect = false;
             $pChildContent = [];
@@ -79,8 +100,10 @@
             file_put_contents('phuyen/sidebarConf/sidebar_channuoi.json', $json_sidebar);
             file_put_contents('phuyen/mapConf/mapwms.json', $json_map);
         }
-    } elseif (isset($_GET['edit'])) {
-        if ((isset($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title']) {
+    }
+    // edit data
+    elseif (isset($_GET['edit'])) {
+        if ((isset($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] && $_GET['note_url']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] && $_GET['note_url']) {
             $id = $_GET['id'];
             $title = $_GET['title'];
             $map_url = $_GET['map_url'];
@@ -136,6 +159,69 @@
             // encode array to json and save to file
             file_put_contents('phuyen/sidebarConf/sidebar_channuoi.json', $json_sidebar);
             file_put_contents('phuyen/mapConf/mapwms.json', $json_map);
+        }
+    }
+    // delete data
+    elseif (isset($_GET['del'])) {
+        if ((isset($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] && $_GET['note_url']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] && $_GET['note_url']) {
+            $id = $_GET['id'];
+            $title = $_GET['title'];
+            $map_url = $_GET['map_url'];
+            $pa_title = $_GET['pa_title'];
+            $chudan = 'https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_channuoi_mobile_dichbenh_min.png';
+            $isEx = false;
+            $isSelect = false;
+            $pChildContent = [];
+            
+            if ($pa_title == 'Dịch bệnh chăn nuôi') {
+                $level = 0;
+            } elseif ($pa_title == 'Cơ sở sản xuất chăn nuôi') {
+                $level = 1;
+            } elseif ($pa_title == 'Thống kê chăn nuôi') {
+                $level = 2;
+            }
+
+            // read file
+            $data_sidebar = file_get_contents('phuyen/sidebarConf/sidebar_channuoi.json');
+            $data_map = file_get_contents('phuyen/mapConf/mapwms.json');
+            // decode json to array
+            $data_sidebar_Decoded = json_decode($data_sidebar, true);
+            $data_map_Decoded = json_decode($data_map, true);
+            // get array index to delete
+            $arr_index_sidebar = [];
+            $arr_index_map = array();
+            foreach ($data_sidebar_Decoded['channuoi']['pContent']['pChildContent'][$level]['pChildContent'] as $key => $value) {
+                if ($value['id'] == $id) {
+                    $arr_index_sidebar[] = $key;
+                }
+            }
+            // foreach ($data_map_Decoded as $key => $value) {
+            //     if ($value['id'] == $id) {
+            //         $arr_index_map[] = $key;
+            //     }
+            // }
+
+
+            // delete data
+            foreach ($arr_index_sidebar as $i) {
+                unset($data_sidebar_Decoded['channuoi']['pContent']['pChildContent'][$level]['pChildContent'][$i]);
+            }
+            // foreach ($arr_index_map as $i) {
+            //     unset($data_map_Decoded[$i]);
+            // }
+
+           
+          
+            $json_sidebar = json_encode($data_sidebar_Decoded, JSON_UNESCAPED_UNICODE);
+            // $data_map_Decoded = array_values($data_map_Decoded);
+            // $json_map = json_encode($data_map_Decoded, JSON_UNESCAPED_UNICODE);
+            // encode array to json and save to file
+            file_put_contents('phuyen/sidebarConf/sidebar_channuoi.json', $json_sidebar);
+            // file_put_contents('phuyen/mapConf/mapwms.json', $json_map);
+            echo $json_sidebar;
+            echo '<hr>';
+             // echo $json_map;
+            // echo '<hr>';
         }
     }
 

@@ -1,34 +1,72 @@
+<?php
+if (isset($_GET['path_side'])) {
+    $path_side = $_GET['path_side'];
+    
+}else{
+    $path_side = '';
+}
+if (isset($_GET['path_map'])) {
+    $path_map = $_GET['path_map'];
+}else{
+    $path_map = '';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- <meta charset="UTF-8"> -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit JSON</title>
-    <!-- <link rel="stylesheet" href="../sinhthai_tayninh/export/tabselect.css"> -->
-
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: gray;
+        }
+    </style>
 </head>
 
 <body style="background-color: whitesmoke;">
     <form action="" method="get">
-        <h1 style="text-transform: uppercase;">add json</h1>
+        <h1 style="text-transform: uppercase;"><a href="./">add json</a></h1>
+        <p>Sample:</p>
+        <p>Path sidebar: ___/sidebarConf/sidebar_****.json</p>
+        <p>Path map: ___/mapConf/mapwms.json</p>
         <hr><br>
-        <label for="path_folder">Load file:</label>
-        <input type="text" id="id" name="id">
+        <label for="path_side">Load file sidebar:</label>
+        <input type="text" id="path_side" name="path_side" value="<?php echo $path_side;?>">
+        <label for="path_map">Load file map:</label>
+        <input type="text" id="path_map" name="path_map" value="<?php echo $path_map;?>">
         <input type="submit" value="Load" name="submit">
+       <?php
+        if(isset($_GET['submit'])){
+            $submit = $_GET['submit'];
+        
+
+        // load file
+        if($submit == 'Load') {
+            $path_side = $_GET['path_side'];
+            $path_map = $_GET['path_map'];
+            
+        }
+       ?>
         <br><br>
         <label for="pa_title">Parent title:</label>
         <select name="pa_title" id="pa_title">
-            <?php
-            $data = file_get_contents('phuyen/sidebarConf/sidebar_channuoi.json');
+          <?php  
+            $data = file_get_contents($path_side);
             $datasDecoded = json_decode($data, true);
+            $schema = rtrim(ltrim(strpbrk($path_side,"_"), '_'),'.json');
             $pa_title = [];
-            $count = count($datasDecoded['channuoi']['pContent']['pChildContent']);
+            $count = count($datasDecoded[$schema]['pContent']['pChildContent']);
             echo '<option value="">--- Select parent title ---</option>';
             for ($i = 0; $i < $count; $i++) {
-                echo '<option value="' . $datasDecoded['channuoi']['pContent']['pChildContent'][$i]['title'] . '">' . $datasDecoded['channuoi']['pContent']['pChildContent'][$i]['title'] . '</option>';
+                echo '<option value="' . $datasDecoded[$schema]['pContent']['pChildContent'][$i]['title'] . '">' . $datasDecoded[$schema]['pContent']['pChildContent'][$i]['title'] . '</option>';
             };
             ?>
         </select><br><br>
@@ -47,10 +85,16 @@
         <hr><br>
     </form>
     <?php
+    // // load file
+    // if (isset($_GET['submit']) == 'Load') {
+    //     $path = $_GET['path'];
+    //     $a = "'". $path."'";
+    //     echo $a;
+    // }
     //add data
 
-    if (isset($_GET['submit']) == 'Add') {
-
+    if ($submit == 'Add') {
+        
         if ((isset($_GET['id']) && $_GET['pa_title'] && $_GET['map_url'] && $_GET['title'] || $_GET['note_url']) && !empty($_GET['id']) && $_GET['title'] && $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
             $id = $_GET['id'];
             $title = $_GET['title'];
@@ -58,7 +102,7 @@
             $pa_title = $_GET['pa_title'];
             $note_url = $_GET['note_url'];
             // $datas = file_get_contents('data.json');
-            $data_sidebar = file_get_contents('phuyen/sidebarConf/sidebar_channuoi.json');
+            $data_sidebar = file_get_contents($path_side);
             $data_map = file_get_contents('phuyen/mapConf/mapwms.json');
 
             //Decode the JSON data into a PHP array.
@@ -96,7 +140,7 @@
         }
     }
     // edit data
-    elseif (isset($_GET['submit']) == 'Edit') {
+    elseif ($submit == 'Edit') {
         if ((isset($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) && !empty($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
 
             $id = $_GET['id'];
@@ -162,7 +206,7 @@
     }
     // delete data
 
-    elseif (isset($_GET['submit']) == 'Delete') {
+    elseif ($submit == 'Delete') {
         if ((isset($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) && !empty($_GET['id']) || $_GET['title'] || $_GET['map_url'] && $_GET['pa_title'] || $_GET['note_url']) {
             $id = $_GET['id'];
             $title = $_GET['title'];
@@ -230,18 +274,27 @@
     <form accept-charset="utf-8">
         <?php
         // header('Content-Type: text/html; charset=UTF-8');
-        $data = file_get_contents('phuyen/sidebarConf/sidebar_channuoi.json');
-        $datasDecoded = json_decode($data, true);
+        $path = 'phuyen/sidebarConf/sidebar_channuoi.json';
+        $data = file_get_contents($path);
+       $datasDecoded = json_decode($data, true);
         // echo $datasDecoded[1]["member"][3]["name"];
         // echo json_encode($datasDecoded);
         // var_dump($datasDecoded)
         // foreach ($datasDecoded['channuoi']['pContent']['pChildContent'][1]['pChildContent'] as $key => $value) {
         //     // if ($value['id'] == 'channuoi_coso_nhayen') {
         //         $data_sidebar_Decoded[$key][0]['channuoi']['pContent']['pChildContent']['pChildContent']['title'] = "hauvi";
-        //         echo json_encode($data_sidebar_Decoded, JSON_UNESCAPED_UNICODE);;
+       // echo json_encode($datasDecoded, JSON_UNESCAPED_UNICODE);;
+       
+      // $schema = json_encode($datasDecoded, JSON_UNESCAPED_UNICODE);
+    //    echo  $schema;
+    //   echo rtrim(ltrim(strpbrk($path,"_"), '_'),'.json'); 
         //     // }
 
         // }
+        
+    
+    //ket thuc kiem tra co nhan nut sub,it khong
+    }
         ?>
 
     </form>

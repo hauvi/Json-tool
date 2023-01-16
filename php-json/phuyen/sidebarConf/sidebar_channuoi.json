@@ -1,21 +1,21 @@
 {
-    "channuoi": {
+    "trongtrot": {
         "pContent": {
-            "title": "Chăn nuôi và Thú y",
-            "id": "channuoi",
+            "title": "Trồng trọt và Bảo vệ thực vật",
+            "id": "trongtrot",
             "isEx": false,
             "isSelect": false,
             "pChildContent": [
                 {
-                    "title": "Dịch bệnh chăn nuôi",
-                    "id": "channuoi_dichbenh_group",
+                    "title": "Dịch bệnh cây trồng",
+                    "id": "trongtrot_dichhai",
                     "isEx": false,
                     "isSelect": false,
                     "pChildContent": [
                         {
-                            "title": "Vị trí phát hiện Dịch bệnh trên vật nuôi",
-                            "id": "channuoi_mobile_dichbenh",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_mobile_dichbenh_min.png",
+                            "title": "Vị trí phát hiện Sinh vật gây hại",
+                            "id": "trongtrot_mobile_dichhai",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_trongtrot_dichhai_min.png",
                             "isEx": false,
                             "isSelect": false,
                             "pChildContent": []
@@ -23,55 +23,54 @@
                     ]
                 },
                 {
-                    "title": "Cơ sở sản xuất chăn nuôi",
-                    "id": "channuoi_cssxncn",
+                    "title": "Cơ sở sản xuất nông nghiệp",
+                    "id": "trongtrot_cososanxuat",
                     "isEx": false,
                     "isSelect": false,
                     "pChildContent": [
                         {
-                            "title": "Cơ sở nhà yến",
-                            "id": "channuoi_coso_nhayen",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_coso_nhayen_mini.png",
+                            "title": "Điểm mô hình trồng trọt",
+                            "id": "trongtrot_diemmohinh",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_trongtrot_diemmohinh_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "isCheckable": true,
+                            "pChildContent": []
+                        },
+                        {
+                            "title": "Điểm mã số vùng trồng",
+                            "id": "trongtrot_masovungtrong",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_trongtrot_masovungtrong_min.png",
+                            "isEx": false,
+                            "isSelect": false,
+                            "isCheckable": true,
+                            "pChildContent": []
+                        }
+                    ]
+                },
+                {
+                    "title": "Tình hình trồng trọt",
+                    "id": "trongtrot_baocao",
+                    "isEx": false,
+                    "isSelect": false,
+                    "pChildContent": [
+                        {
+                            "title": "Báo cáo cơ cấu giống lúa",
+                            "id": "trongtrot_cocaugionglua",
                             "isEx": false,
                             "isSelect": false,
                             "pChildContent": []
                         },
                         {
-                            "title": "Cơ sở chăn nuôi, trang trại",
-                            "id": "channuoi_coso_channuoi",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_channuoi_min.png",
+                            "title": "Báo cáo diện tích cây trồng tỉnh",
+                            "id": "trongtrot_dtcaytrongtinh",
                             "isEx": false,
                             "isSelect": false,
                             "pChildContent": []
                         },
                         {
-                            "title": "Cơ sở giết mổ, kinh doanh sản phẩm động vật ",
-                            "id": "channuoi_coso_gietmo",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_gietmo_min.png",
-                            "isEx": false,
-                            "isSelect": false,
-                            "pChildContent": []
-                        },
-                        {
-                            "title": "Cơ sở ấp trứng, thu gom, kinh doanh con giống gia cầm",
-                            "id": "channuoi_coso_aptrung",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_cssxncn_trungcongiong_min.png",
-                            "isEx": false,
-                            "isSelect": false,
-                            "pChildContent": []
-                        },
-                        {
-                            "title": "Điểm mô hình chăn nuôi",
-                            "id": "channuoi_diemmohinh",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_diemmohinh_min.png",
-                            "isEx": false,
-                            "isSelect": false,
-                            "pChildContent": []
-                        },
-                        {
-                            "title": "Sản xuất heo thịt",
-                            "id": "sanxuatheothit",
-                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_channuoi_mobile_dichbenh_min.png",
+                            "title": "Báo cáo diện tích cây trồng huyện",
+                            "id": "trongtrot_dtcaytronghuyen",
                             "isEx": false,
                             "isSelect": false,
                             "pChildContent": []
@@ -79,21 +78,15 @@
                     ]
                 },
                 {
-                    "title": "Thống kê chăn nuôi",
-                    "id": "channuoi_baocao_group",
+                    "title": "Bản đồ đất",
+                    "id": "trongtrot_bando",
                     "isEx": false,
                     "isSelect": false,
                     "pChildContent": [
                         {
-                            "title": "Bảng tổng hợp số liệu gia súc",
-                            "id": "channuoi_tongdan",
-                            "isEx": false,
-                            "isSelect": false,
-                            "pChildContent": []
-                        },
-                        {
-                            "title": "Thống kê bệnh giai đoạn 2019-2022",
-                            "id": "channuoi_dichbenh_fix",
+                            "title": "Bản đồ độ thích hợp đất nông nghiệp",
+                            "id": "trongtrot_bando",
+                            "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/legend_trongtrot_thichopdat.png",
                             "isEx": false,
                             "isSelect": false,
                             "pChildContent": []

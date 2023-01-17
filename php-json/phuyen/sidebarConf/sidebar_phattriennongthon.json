@@ -12,11 +12,10 @@
           "isEx": false,
           "isSelect": false,
           "pChildContent": [
-         
             {
               "title": "Làng nghề",
               "id": "phattriennongthon_langnghe",
-              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_ptnt_langnghe_min.png",
+              "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_ptnt_langnghe_min.png",
               "isEx": false,
               "isSelect": false,
               "pChildContent": []
@@ -24,12 +23,11 @@
             {
               "title": "Hợp tác xã",
               "id": "phattriennongthon_hoptacxa",
-              "chudan": "https://nongnghiepphuyen.girs.vn/file_system/a1_mapicon/icon_ptnt_hoptacxa_min.png",
+              "chudan": "https:\/\/nongnghiepphuyen.girs.vn\/file_system\/a1_mapicon\/icon_ptnt_hoptacxa_min.png",
               "isEx": false,
               "isSelect": false,
               "pChildContent": []
             }
-
           ]
         }
       ]

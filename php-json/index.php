@@ -18,26 +18,22 @@ if (isset($_GET['path_map'])) {
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Edit JSON</title>
-    <style>
-        a {
-            text-decoration: none;
-            color: black;
-        }
-
-        a:hover {
-            color: gray;
-        }
-    </style>
 </head>
 
-<body style="background-color: whitesmoke;">
+<body>
+    <div class="header">
+        <!-- <span class="circle"></span> -->
+        <h1><a href="./">add json</a></h1>
+    </div>
+    <div class="content">
     <form action="" method="get">
-        <h1 style="text-transform: uppercase;"><a href="./">add json</a></h1>
+
         <p>Sample:</p>
         <p>Path sidebar: ___/sidebarConf/sidebar_****.json</p>
         <p>Path map: ___/mapConf/mapwms.json</p>
-        <hr><br>
+        <br><hr><br>
         <label for="path_side">Load file sidebar:</label>
         <input type="text" id="path_side" name="path_side" value="<?php echo $path_side; ?>">
         <label for="path_map">Load file map:</label>
@@ -86,6 +82,7 @@ if (isset($_GET['path_map'])) {
             <input type="submit" value="Delete" name="submit"><br><br>
             <hr><br>
     </form>
+    </div>
     <?php
 
             //add data
@@ -107,7 +104,7 @@ if (isset($_GET['path_map'])) {
                     $data_sidebar_Decoded = json_decode($data_sidebar, true);
                     $data_map_Decoded = json_decode($data_map, true);
 
-                   
+
 
                     $isEx = false;
                     $isSelect = false;
@@ -120,20 +117,20 @@ if (isset($_GET['path_map'])) {
                             $data_sidebar_Decoded[$schema]['pContent']['pChildContent'][$i]['pChildContent'][] = ["title" => $title, "id" => $id, "chudan" => $note_url, "isEx" => $isEx, "isSelect" => $isSelect, "pChildContent" => $pChildContent];
                             $data_map_Decoded[$id] = ["iURL4Map" => $map_url];
                         }
-                        echo 'Sidebar config:'.'<br>';
+                        echo 'Sidebar config:' . '<br>';
                         echo  json_encode($data_sidebar_Decoded[$schema]['pContent']['pChildContent'][$i]['pChildContent'], JSON_UNESCAPED_UNICODE);
                         echo '<hr><br>';
-                        echo 'Map config:'.'<br>';
+                        echo 'Map config:' . '<br>';
                         echo json_encode($data_map_Decoded[$id], JSON_UNESCAPED_UNICODE);
                         echo '<hr>';
                     }
 
-                   
+
 
                     //Encode the array back into a JSON string.
                     $json_sidebar = json_encode($data_sidebar_Decoded, JSON_UNESCAPED_UNICODE);
                     $json_map = json_encode($data_map_Decoded, JSON_UNESCAPED_UNICODE);
-                    
+
                     //Save the file.
                     file_put_contents($path_side, $json_sidebar);
                     file_put_contents($path_map, $json_map);
@@ -160,7 +157,7 @@ if (isset($_GET['path_map'])) {
                     $data_sidebar_Decoded = json_decode($data_sidebar, true);
                     $data_map_Decoded = json_decode($data_map, true);
 
-                  // edit data
+                    // edit data
                     for ($i = 0; $i < $count; $i++) {
                         if ($pa_title == $datasDecoded[$schema]['pContent']['pChildContent'][$i]['title']) {
                             foreach ($data_sidebar_Decoded[$schema]['pContent']['pChildContent'][$i]['pChildContent'] as $key => $value) {
@@ -172,7 +169,7 @@ if (isset($_GET['path_map'])) {
                                 }
                             }
                         }
-                        echo 'Sidebar config:'.'<br>';
+                        echo 'Sidebar config:' . '<br>';
                         echo json_encode($data_sidebar_Decoded[$schema]['pContent']['pChildContent'][$i]['pChildContent'][$j], JSON_UNESCAPED_UNICODE);
                         echo '<hr><br>';
                     }
@@ -186,11 +183,10 @@ if (isset($_GET['path_map'])) {
                         if ($key == $id) {
                             $data_map_Decoded[$key]['iURL4Map'] = $map_url;
                             // $data_map_Decoded[$key] = $id;
-                            echo 'Map config:'.'<br>';
-                            echo json_encode( $data_map_Decoded[$key], JSON_UNESCAPED_UNICODE);
+                            echo 'Map config:' . '<br>';
+                            echo json_encode($data_map_Decoded[$key], JSON_UNESCAPED_UNICODE);
                             echo '<hr>';
                         }
-                        
                     }
                     // var_dump($tmp_map_decode);
 
@@ -233,20 +229,18 @@ if (isset($_GET['path_map'])) {
                             foreach ($data_sidebar_Decoded[$schema]['pContent']['pChildContent'][$i]['pChildContent'] as $key => $value) {
                                 if ($value['id'] == $id) {
                                     $arr_index_sidebar[] = $key;
-                                    
                                 }
                             }
                             foreach ($data_map_Decoded as $key => $value) {
                                 if ($key == $id) {
                                     $arr_index_map[] = $key;
                                 }
-                            // delete data
+                                // delete data
 
                             }
 
                             foreach ($arr_index_sidebar as $j) {
                                 unset($data_sidebar_Decoded[$schema]['pContent']['pChildContent'][$i]['pChildContent'][$j]);
-                             
                             }
                             foreach ($arr_index_map as $j) {
                                 unset($data_map_Decoded[$j]);
@@ -263,10 +257,10 @@ if (isset($_GET['path_map'])) {
                     // // encode array to json and save to file
                     file_put_contents($path_side, $json_sidebar);
                     file_put_contents($path_map, $json_map);
-                    echo 'Sidebar config:'.'<br>';
+                    echo 'Sidebar config:' . '<br>';
                     echo $json_sidebar;
                     echo '<hr><br>';
-                    echo 'Map config:'.'<br>';
+                    echo 'Map config:' . '<br>';
                     echo $json_map;
                     echo '<hr>';
                 }
@@ -281,7 +275,7 @@ if (isset($_GET['path_map'])) {
             $data = file_get_contents($path);
             $datasDecoded = json_decode($data, true);
 
-           
+
 
             //ket thuc kiem tra co nhan nut submit khong
         }

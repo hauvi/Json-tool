@@ -29,10 +29,9 @@ if (isset($_GET['path_map'])) {
     </div>
     <div class="content">
     <form action="" method="get">
-
-        <p>Sample:</p>
-        <p>Path sidebar: ___/sidebarConf/sidebar_****.json</p>
-        <p>Path map: ___/mapConf/mapwms.json</p>
+        <p>Sample:<br>
+        Path sidebar: ___/sidebarConf/sidebar_****.json<br>
+        Path map: ___/mapConf/mapwms.json</p>
         <br><hr><br>
         <label for="path_side">Load file sidebar:</label>
         <input type="text" id="path_side" name="path_side" value="<?php echo $path_side; ?>">
